@@ -701,6 +701,15 @@
                     "processors": "",
                     "interactions": "",
                     "initialStateCheck": true
+                },
+                {
+                    "name": "ThumbTouchedButton",
+                    "type": "Value",
+                    "id": "9fbff7ca-fa08-4713-859d-f9ec1a1c102c",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
                 }
             ],
             "bindings": [
@@ -844,6 +853,39 @@
                     "processors": "",
                     "groups": "Generic XR Controller",
                     "action": "UI Scroll",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "11889030-0c5d-44a3-96e8-de6fc70c8e72",
+                    "path": "<XRController>{LeftHand}/{PrimaryTouch}",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "ThumbTouchedButton",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "a5968818-a0f8-48c1-801e-f7fe4141dfa9",
+                    "path": "<XRController>{LeftHand}/{SecondaryTouch}",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "ThumbTouchedButton",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "1dcf2716-3d17-46e0-931a-5739a0cdac26",
+                    "path": "<OculusTouchController>{LeftHand}/thumbstickTouched",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "ThumbTouchedButton",
                     "isComposite": false,
                     "isPartOfComposite": false
                 }
@@ -1417,6 +1459,15 @@
                     "processors": "",
                     "interactions": "",
                     "initialStateCheck": true
+                },
+                {
+                    "name": "ThumbTouchedButton",
+                    "type": "Value",
+                    "id": "72038546-d7b7-4565-9d62-1f424c93024b",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
                 }
             ],
             "bindings": [
@@ -1560,6 +1611,39 @@
                     "processors": "",
                     "groups": "Generic XR Controller",
                     "action": "UI Scroll",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "9ec8d0e0-d40a-4b7b-ac60-89dd956f9eab",
+                    "path": "<XRController>{RightHand}/{PrimaryTouch}",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "ThumbTouchedButton",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "8843f8b0-24ac-49c9-972b-6cd7ac0e352c",
+                    "path": "<XRController>{RightHand}/{SecondaryTouch}",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "ThumbTouchedButton",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "3c97643d-6a11-4968-a197-919f7c9bf4b3",
+                    "path": "<OculusTouchController>{RightHand}/thumbstickTouched",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "ThumbTouchedButton",
                     "isComposite": false,
                     "isPartOfComposite": false
                 }
