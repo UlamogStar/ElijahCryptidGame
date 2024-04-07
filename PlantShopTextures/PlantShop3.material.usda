@@ -1,0 +1,2343 @@
+#usda 1.0
+(
+    "Exported from Adobe Substance 3D Painter 9.1.2"
+    defaultPrim = "PlantShop_obj"
+)
+
+def "PlantShop_obj"
+{
+    def Scope "material"
+    {
+        def Material "BellLamSG" (
+            customData = {
+                dictionary adobe = {
+                    dictionary painter = {
+                        asset painterProject_spp = @C:/Users/ferri/OneDrive/Desktop/ClassWork/PlantShop3.spp@
+                    }
+                }
+            }
+        )
+        {
+            asset inputs:opacity_tex = @PlantShop3_textures/BellLamSG_Alpha.1001.png@
+            token outputs:displacement.connect = </PlantShop_obj/material/BellLamSG/UsdPreviewSurface/ShaderUsdPreviewSurface.outputs:displacement>
+            token outputs:surface.connect = </PlantShop_obj/material/BellLamSG/UsdPreviewSurface/ShaderUsdPreviewSurface.outputs:surface>
+
+            def NodeGraph "UsdPreviewSurface"
+            {
+                def Shader "ShaderUsdPreviewSurface"
+                {
+                    uniform token info:id = "UsdPreviewSurface"
+                    float inputs:opacity.connect = </PlantShop_obj/material/BellLamSG/UsdPreviewSurface/opacityTextureShader.outputs:r>
+                    token outputs:displacement
+                    token outputs:surface
+                }
+
+                def Shader "TexCoordReader"
+                {
+                    uniform token info:id = "UsdPrimvarReader_float2"
+                    token inputs:varname = "st"
+                    float2 outputs:result
+                }
+
+                def Shader "opacityTextureShader"
+                {
+                    uniform token info:id = "UsdUVTexture"
+                    asset inputs:file.connect = </PlantShop_obj/material/BellLamSG.inputs:opacity_tex>
+                    float2 inputs:st.connect = </PlantShop_obj/material/BellLamSG/UsdPreviewSurface/TexCoordReader.outputs:result>
+                    token inputs:wrapS = "repeat"
+                    token inputs:wrapT = "repeat"
+                    float outputs:r
+                }
+            }
+        }
+
+        def Material "BucketLamSG" (
+            customData = {
+                dictionary adobe = {
+                    dictionary painter = {
+                        asset painterProject_spp = @C:/Users/ferri/OneDrive/Desktop/ClassWork/PlantShop3.spp@
+                    }
+                }
+            }
+        )
+        {
+            asset inputs:opacity_tex = @PlantShop3_textures/BucketLamSG_Alpha.1001.png@
+            token outputs:displacement.connect = </PlantShop_obj/material/BucketLamSG/UsdPreviewSurface/ShaderUsdPreviewSurface.outputs:displacement>
+            token outputs:surface.connect = </PlantShop_obj/material/BucketLamSG/UsdPreviewSurface/ShaderUsdPreviewSurface.outputs:surface>
+
+            def NodeGraph "UsdPreviewSurface"
+            {
+                def Shader "ShaderUsdPreviewSurface"
+                {
+                    uniform token info:id = "UsdPreviewSurface"
+                    float inputs:opacity.connect = </PlantShop_obj/material/BucketLamSG/UsdPreviewSurface/opacityTextureShader.outputs:r>
+                    token outputs:displacement
+                    token outputs:surface
+                }
+
+                def Shader "TexCoordReader"
+                {
+                    uniform token info:id = "UsdPrimvarReader_float2"
+                    token inputs:varname = "st"
+                    float2 outputs:result
+                }
+
+                def Shader "opacityTextureShader"
+                {
+                    uniform token info:id = "UsdUVTexture"
+                    asset inputs:file.connect = </PlantShop_obj/material/BucketLamSG.inputs:opacity_tex>
+                    float2 inputs:st.connect = </PlantShop_obj/material/BucketLamSG/UsdPreviewSurface/TexCoordReader.outputs:result>
+                    token inputs:wrapS = "repeat"
+                    token inputs:wrapT = "repeat"
+                    float outputs:r
+                }
+            }
+        }
+
+        def Material "CabSinkLamSG" (
+            customData = {
+                dictionary adobe = {
+                    dictionary painter = {
+                        asset painterProject_spp = @C:/Users/ferri/OneDrive/Desktop/ClassWork/PlantShop3.spp@
+                    }
+                }
+            }
+        )
+        {
+            asset inputs:opacity_tex = @PlantShop3_textures/CabSinkLamSG_Alpha.1001.png@
+            token outputs:displacement.connect = </PlantShop_obj/material/CabSinkLamSG/UsdPreviewSurface/ShaderUsdPreviewSurface.outputs:displacement>
+            token outputs:surface.connect = </PlantShop_obj/material/CabSinkLamSG/UsdPreviewSurface/ShaderUsdPreviewSurface.outputs:surface>
+
+            def NodeGraph "UsdPreviewSurface"
+            {
+                def Shader "ShaderUsdPreviewSurface"
+                {
+                    uniform token info:id = "UsdPreviewSurface"
+                    float inputs:opacity.connect = </PlantShop_obj/material/CabSinkLamSG/UsdPreviewSurface/opacityTextureShader.outputs:r>
+                    token outputs:displacement
+                    token outputs:surface
+                }
+
+                def Shader "TexCoordReader"
+                {
+                    uniform token info:id = "UsdPrimvarReader_float2"
+                    token inputs:varname = "st"
+                    float2 outputs:result
+                }
+
+                def Shader "opacityTextureShader"
+                {
+                    uniform token info:id = "UsdUVTexture"
+                    asset inputs:file.connect = </PlantShop_obj/material/CabSinkLamSG.inputs:opacity_tex>
+                    float2 inputs:st.connect = </PlantShop_obj/material/CabSinkLamSG/UsdPreviewSurface/TexCoordReader.outputs:result>
+                    token inputs:wrapS = "repeat"
+                    token inputs:wrapT = "repeat"
+                    float outputs:r
+                }
+            }
+        }
+
+        def Material "CabinetLamSG" (
+            customData = {
+                dictionary adobe = {
+                    dictionary painter = {
+                        asset painterProject_spp = @C:/Users/ferri/OneDrive/Desktop/ClassWork/PlantShop3.spp@
+                    }
+                }
+            }
+        )
+        {
+            asset inputs:opacity_tex = @PlantShop3_textures/CabinetLamSG_Alpha.1001.png@
+            token outputs:displacement.connect = </PlantShop_obj/material/CabinetLamSG/UsdPreviewSurface/ShaderUsdPreviewSurface.outputs:displacement>
+            token outputs:surface.connect = </PlantShop_obj/material/CabinetLamSG/UsdPreviewSurface/ShaderUsdPreviewSurface.outputs:surface>
+
+            def NodeGraph "UsdPreviewSurface"
+            {
+                def Shader "ShaderUsdPreviewSurface"
+                {
+                    uniform token info:id = "UsdPreviewSurface"
+                    float inputs:opacity.connect = </PlantShop_obj/material/CabinetLamSG/UsdPreviewSurface/opacityTextureShader.outputs:r>
+                    token outputs:displacement
+                    token outputs:surface
+                }
+
+                def Shader "TexCoordReader"
+                {
+                    uniform token info:id = "UsdPrimvarReader_float2"
+                    token inputs:varname = "st"
+                    float2 outputs:result
+                }
+
+                def Shader "opacityTextureShader"
+                {
+                    uniform token info:id = "UsdUVTexture"
+                    asset inputs:file.connect = </PlantShop_obj/material/CabinetLamSG.inputs:opacity_tex>
+                    float2 inputs:st.connect = </PlantShop_obj/material/CabinetLamSG/UsdPreviewSurface/TexCoordReader.outputs:result>
+                    token inputs:wrapS = "repeat"
+                    token inputs:wrapT = "repeat"
+                    float outputs:r
+                }
+            }
+        }
+
+        def Material "ComputerLamSG" (
+            customData = {
+                dictionary adobe = {
+                    dictionary painter = {
+                        asset painterProject_spp = @C:/Users/ferri/OneDrive/Desktop/ClassWork/PlantShop3.spp@
+                    }
+                }
+            }
+        )
+        {
+            asset inputs:opacity_tex = @PlantShop3_textures/ComputerLamSG_Alpha.1001.png@
+            token outputs:displacement.connect = </PlantShop_obj/material/ComputerLamSG/UsdPreviewSurface/ShaderUsdPreviewSurface.outputs:displacement>
+            token outputs:surface.connect = </PlantShop_obj/material/ComputerLamSG/UsdPreviewSurface/ShaderUsdPreviewSurface.outputs:surface>
+
+            def NodeGraph "UsdPreviewSurface"
+            {
+                def Shader "ShaderUsdPreviewSurface"
+                {
+                    uniform token info:id = "UsdPreviewSurface"
+                    float inputs:opacity.connect = </PlantShop_obj/material/ComputerLamSG/UsdPreviewSurface/opacityTextureShader.outputs:r>
+                    token outputs:displacement
+                    token outputs:surface
+                }
+
+                def Shader "TexCoordReader"
+                {
+                    uniform token info:id = "UsdPrimvarReader_float2"
+                    token inputs:varname = "st"
+                    float2 outputs:result
+                }
+
+                def Shader "opacityTextureShader"
+                {
+                    uniform token info:id = "UsdUVTexture"
+                    asset inputs:file.connect = </PlantShop_obj/material/ComputerLamSG.inputs:opacity_tex>
+                    float2 inputs:st.connect = </PlantShop_obj/material/ComputerLamSG/UsdPreviewSurface/TexCoordReader.outputs:result>
+                    token inputs:wrapS = "repeat"
+                    token inputs:wrapT = "repeat"
+                    float outputs:r
+                }
+            }
+        }
+
+        def Material "DoorLamSG" (
+            customData = {
+                dictionary adobe = {
+                    dictionary painter = {
+                        asset painterProject_spp = @C:/Users/ferri/OneDrive/Desktop/ClassWork/PlantShop3.spp@
+                    }
+                }
+            }
+        )
+        {
+            asset inputs:opacity_tex = @PlantShop3_textures/DoorLamSG_Alpha.1001.png@
+            token outputs:displacement.connect = </PlantShop_obj/material/DoorLamSG/UsdPreviewSurface/ShaderUsdPreviewSurface.outputs:displacement>
+            token outputs:surface.connect = </PlantShop_obj/material/DoorLamSG/UsdPreviewSurface/ShaderUsdPreviewSurface.outputs:surface>
+
+            def NodeGraph "UsdPreviewSurface"
+            {
+                def Shader "ShaderUsdPreviewSurface"
+                {
+                    uniform token info:id = "UsdPreviewSurface"
+                    float inputs:opacity.connect = </PlantShop_obj/material/DoorLamSG/UsdPreviewSurface/opacityTextureShader.outputs:r>
+                    token outputs:displacement
+                    token outputs:surface
+                }
+
+                def Shader "TexCoordReader"
+                {
+                    uniform token info:id = "UsdPrimvarReader_float2"
+                    token inputs:varname = "st"
+                    float2 outputs:result
+                }
+
+                def Shader "opacityTextureShader"
+                {
+                    uniform token info:id = "UsdUVTexture"
+                    asset inputs:file.connect = </PlantShop_obj/material/DoorLamSG.inputs:opacity_tex>
+                    float2 inputs:st.connect = </PlantShop_obj/material/DoorLamSG/UsdPreviewSurface/TexCoordReader.outputs:result>
+                    token inputs:wrapS = "repeat"
+                    token inputs:wrapT = "repeat"
+                    float outputs:r
+                }
+            }
+        }
+
+        def Material "FrontWallLamSG" (
+            customData = {
+                dictionary adobe = {
+                    dictionary painter = {
+                        asset painterProject_spp = @C:/Users/ferri/OneDrive/Desktop/ClassWork/PlantShop3.spp@
+                    }
+                }
+            }
+        )
+        {
+            asset inputs:opacity_tex = @PlantShop3_textures/FrontWallLamSG_Alpha.1001.png@
+            token outputs:displacement.connect = </PlantShop_obj/material/FrontWallLamSG/UsdPreviewSurface/ShaderUsdPreviewSurface.outputs:displacement>
+            token outputs:surface.connect = </PlantShop_obj/material/FrontWallLamSG/UsdPreviewSurface/ShaderUsdPreviewSurface.outputs:surface>
+
+            def NodeGraph "UsdPreviewSurface"
+            {
+                def Shader "ShaderUsdPreviewSurface"
+                {
+                    uniform token info:id = "UsdPreviewSurface"
+                    float inputs:opacity.connect = </PlantShop_obj/material/FrontWallLamSG/UsdPreviewSurface/opacityTextureShader.outputs:r>
+                    token outputs:displacement
+                    token outputs:surface
+                }
+
+                def Shader "TexCoordReader"
+                {
+                    uniform token info:id = "UsdPrimvarReader_float2"
+                    token inputs:varname = "st"
+                    float2 outputs:result
+                }
+
+                def Shader "opacityTextureShader"
+                {
+                    uniform token info:id = "UsdUVTexture"
+                    asset inputs:file.connect = </PlantShop_obj/material/FrontWallLamSG.inputs:opacity_tex>
+                    float2 inputs:st.connect = </PlantShop_obj/material/FrontWallLamSG/UsdPreviewSurface/TexCoordReader.outputs:result>
+                    token inputs:wrapS = "repeat"
+                    token inputs:wrapT = "repeat"
+                    float outputs:r
+                }
+            }
+        }
+
+        def Material "HookLamSG" (
+            customData = {
+                dictionary adobe = {
+                    dictionary painter = {
+                        asset painterProject_spp = @C:/Users/ferri/OneDrive/Desktop/ClassWork/PlantShop3.spp@
+                    }
+                }
+            }
+        )
+        {
+            asset inputs:opacity_tex = @PlantShop3_textures/HookLamSG_Alpha.1001.png@
+            token outputs:displacement.connect = </PlantShop_obj/material/HookLamSG/UsdPreviewSurface/ShaderUsdPreviewSurface.outputs:displacement>
+            token outputs:surface.connect = </PlantShop_obj/material/HookLamSG/UsdPreviewSurface/ShaderUsdPreviewSurface.outputs:surface>
+
+            def NodeGraph "UsdPreviewSurface"
+            {
+                def Shader "ShaderUsdPreviewSurface"
+                {
+                    uniform token info:id = "UsdPreviewSurface"
+                    float inputs:opacity.connect = </PlantShop_obj/material/HookLamSG/UsdPreviewSurface/opacityTextureShader.outputs:r>
+                    token outputs:displacement
+                    token outputs:surface
+                }
+
+                def Shader "TexCoordReader"
+                {
+                    uniform token info:id = "UsdPrimvarReader_float2"
+                    token inputs:varname = "st"
+                    float2 outputs:result
+                }
+
+                def Shader "opacityTextureShader"
+                {
+                    uniform token info:id = "UsdUVTexture"
+                    asset inputs:file.connect = </PlantShop_obj/material/HookLamSG.inputs:opacity_tex>
+                    float2 inputs:st.connect = </PlantShop_obj/material/HookLamSG/UsdPreviewSurface/TexCoordReader.outputs:result>
+                    token inputs:wrapS = "repeat"
+                    token inputs:wrapT = "repeat"
+                    float outputs:r
+                }
+            }
+        }
+
+        def Material "KnobLamSG" (
+            customData = {
+                dictionary adobe = {
+                    dictionary painter = {
+                        asset painterProject_spp = @C:/Users/ferri/OneDrive/Desktop/ClassWork/PlantShop3.spp@
+                    }
+                }
+            }
+        )
+        {
+            asset inputs:opacity_tex = @PlantShop3_textures/KnobLamSG_Alpha.1001.png@
+            token outputs:displacement.connect = </PlantShop_obj/material/KnobLamSG/UsdPreviewSurface/ShaderUsdPreviewSurface.outputs:displacement>
+            token outputs:surface.connect = </PlantShop_obj/material/KnobLamSG/UsdPreviewSurface/ShaderUsdPreviewSurface.outputs:surface>
+
+            def NodeGraph "UsdPreviewSurface"
+            {
+                def Shader "ShaderUsdPreviewSurface"
+                {
+                    uniform token info:id = "UsdPreviewSurface"
+                    float inputs:opacity.connect = </PlantShop_obj/material/KnobLamSG/UsdPreviewSurface/opacityTextureShader.outputs:r>
+                    token outputs:displacement
+                    token outputs:surface
+                }
+
+                def Shader "TexCoordReader"
+                {
+                    uniform token info:id = "UsdPrimvarReader_float2"
+                    token inputs:varname = "st"
+                    float2 outputs:result
+                }
+
+                def Shader "opacityTextureShader"
+                {
+                    uniform token info:id = "UsdUVTexture"
+                    asset inputs:file.connect = </PlantShop_obj/material/KnobLamSG.inputs:opacity_tex>
+                    float2 inputs:st.connect = </PlantShop_obj/material/KnobLamSG/UsdPreviewSurface/TexCoordReader.outputs:result>
+                    token inputs:wrapS = "repeat"
+                    token inputs:wrapT = "repeat"
+                    float outputs:r
+                }
+            }
+        }
+
+        def Material "LightLamSG" (
+            customData = {
+                dictionary adobe = {
+                    dictionary painter = {
+                        asset painterProject_spp = @C:/Users/ferri/OneDrive/Desktop/ClassWork/PlantShop3.spp@
+                    }
+                }
+            }
+        )
+        {
+            asset inputs:opacity_tex = @PlantShop3_textures/LightLamSG_Alpha.1001.png@
+            token outputs:displacement.connect = </PlantShop_obj/material/LightLamSG/UsdPreviewSurface/ShaderUsdPreviewSurface.outputs:displacement>
+            token outputs:surface.connect = </PlantShop_obj/material/LightLamSG/UsdPreviewSurface/ShaderUsdPreviewSurface.outputs:surface>
+
+            def NodeGraph "UsdPreviewSurface"
+            {
+                def Shader "ShaderUsdPreviewSurface"
+                {
+                    uniform token info:id = "UsdPreviewSurface"
+                    float inputs:opacity.connect = </PlantShop_obj/material/LightLamSG/UsdPreviewSurface/opacityTextureShader.outputs:r>
+                    token outputs:displacement
+                    token outputs:surface
+                }
+
+                def Shader "TexCoordReader"
+                {
+                    uniform token info:id = "UsdPrimvarReader_float2"
+                    token inputs:varname = "st"
+                    float2 outputs:result
+                }
+
+                def Shader "opacityTextureShader"
+                {
+                    uniform token info:id = "UsdUVTexture"
+                    asset inputs:file.connect = </PlantShop_obj/material/LightLamSG.inputs:opacity_tex>
+                    float2 inputs:st.connect = </PlantShop_obj/material/LightLamSG/UsdPreviewSurface/TexCoordReader.outputs:result>
+                    token inputs:wrapS = "repeat"
+                    token inputs:wrapT = "repeat"
+                    float outputs:r
+                }
+            }
+        }
+
+        def Material "LilTableLamSG" (
+            customData = {
+                dictionary adobe = {
+                    dictionary painter = {
+                        asset painterProject_spp = @C:/Users/ferri/OneDrive/Desktop/ClassWork/PlantShop3.spp@
+                    }
+                }
+            }
+        )
+        {
+            asset inputs:opacity_tex = @PlantShop3_textures/LilTableLamSG_Alpha.1001.png@
+            token outputs:displacement.connect = </PlantShop_obj/material/LilTableLamSG/UsdPreviewSurface/ShaderUsdPreviewSurface.outputs:displacement>
+            token outputs:surface.connect = </PlantShop_obj/material/LilTableLamSG/UsdPreviewSurface/ShaderUsdPreviewSurface.outputs:surface>
+
+            def NodeGraph "UsdPreviewSurface"
+            {
+                def Shader "ShaderUsdPreviewSurface"
+                {
+                    uniform token info:id = "UsdPreviewSurface"
+                    float inputs:opacity.connect = </PlantShop_obj/material/LilTableLamSG/UsdPreviewSurface/opacityTextureShader.outputs:r>
+                    token outputs:displacement
+                    token outputs:surface
+                }
+
+                def Shader "TexCoordReader"
+                {
+                    uniform token info:id = "UsdPrimvarReader_float2"
+                    token inputs:varname = "st"
+                    float2 outputs:result
+                }
+
+                def Shader "opacityTextureShader"
+                {
+                    uniform token info:id = "UsdUVTexture"
+                    asset inputs:file.connect = </PlantShop_obj/material/LilTableLamSG.inputs:opacity_tex>
+                    float2 inputs:st.connect = </PlantShop_obj/material/LilTableLamSG/UsdPreviewSurface/TexCoordReader.outputs:result>
+                    token inputs:wrapS = "repeat"
+                    token inputs:wrapT = "repeat"
+                    float outputs:r
+                }
+            }
+        }
+
+        def Material "MatLamSG" (
+            customData = {
+                dictionary adobe = {
+                    dictionary painter = {
+                        asset painterProject_spp = @C:/Users/ferri/OneDrive/Desktop/ClassWork/PlantShop3.spp@
+                    }
+                }
+            }
+        )
+        {
+            asset inputs:opacity_tex = @PlantShop3_textures/MatLamSG_Alpha.1001.png@
+            token outputs:displacement.connect = </PlantShop_obj/material/MatLamSG/UsdPreviewSurface/ShaderUsdPreviewSurface.outputs:displacement>
+            token outputs:surface.connect = </PlantShop_obj/material/MatLamSG/UsdPreviewSurface/ShaderUsdPreviewSurface.outputs:surface>
+
+            def NodeGraph "UsdPreviewSurface"
+            {
+                def Shader "ShaderUsdPreviewSurface"
+                {
+                    uniform token info:id = "UsdPreviewSurface"
+                    float inputs:opacity.connect = </PlantShop_obj/material/MatLamSG/UsdPreviewSurface/opacityTextureShader.outputs:r>
+                    token outputs:displacement
+                    token outputs:surface
+                }
+
+                def Shader "TexCoordReader"
+                {
+                    uniform token info:id = "UsdPrimvarReader_float2"
+                    token inputs:varname = "st"
+                    float2 outputs:result
+                }
+
+                def Shader "opacityTextureShader"
+                {
+                    uniform token info:id = "UsdUVTexture"
+                    asset inputs:file.connect = </PlantShop_obj/material/MatLamSG.inputs:opacity_tex>
+                    float2 inputs:st.connect = </PlantShop_obj/material/MatLamSG/UsdPreviewSurface/TexCoordReader.outputs:result>
+                    token inputs:wrapS = "repeat"
+                    token inputs:wrapT = "repeat"
+                    float outputs:r
+                }
+            }
+        }
+
+        def Material "PotBaseLamSG" (
+            customData = {
+                dictionary adobe = {
+                    dictionary painter = {
+                        asset painterProject_spp = @C:/Users/ferri/OneDrive/Desktop/ClassWork/PlantShop3.spp@
+                    }
+                }
+            }
+        )
+        {
+            asset inputs:opacity_tex = @PlantShop3_textures/PotBaseLamSG_Alpha.1001.png@
+            token outputs:displacement.connect = </PlantShop_obj/material/PotBaseLamSG/UsdPreviewSurface/ShaderUsdPreviewSurface.outputs:displacement>
+            token outputs:surface.connect = </PlantShop_obj/material/PotBaseLamSG/UsdPreviewSurface/ShaderUsdPreviewSurface.outputs:surface>
+
+            def NodeGraph "UsdPreviewSurface"
+            {
+                def Shader "ShaderUsdPreviewSurface"
+                {
+                    uniform token info:id = "UsdPreviewSurface"
+                    float inputs:opacity.connect = </PlantShop_obj/material/PotBaseLamSG/UsdPreviewSurface/opacityTextureShader.outputs:r>
+                    token outputs:displacement
+                    token outputs:surface
+                }
+
+                def Shader "TexCoordReader"
+                {
+                    uniform token info:id = "UsdPrimvarReader_float2"
+                    token inputs:varname = "st"
+                    float2 outputs:result
+                }
+
+                def Shader "opacityTextureShader"
+                {
+                    uniform token info:id = "UsdUVTexture"
+                    asset inputs:file.connect = </PlantShop_obj/material/PotBaseLamSG.inputs:opacity_tex>
+                    float2 inputs:st.connect = </PlantShop_obj/material/PotBaseLamSG/UsdPreviewSurface/TexCoordReader.outputs:result>
+                    token inputs:wrapS = "repeat"
+                    token inputs:wrapT = "repeat"
+                    float outputs:r
+                }
+            }
+        }
+
+        def Material "PotLamSG" (
+            customData = {
+                dictionary adobe = {
+                    dictionary painter = {
+                        asset painterProject_spp = @C:/Users/ferri/OneDrive/Desktop/ClassWork/PlantShop3.spp@
+                    }
+                }
+            }
+        )
+        {
+            asset inputs:opacity_tex = @PlantShop3_textures/PotLamSG_Alpha.1001.png@
+            token outputs:displacement.connect = </PlantShop_obj/material/PotLamSG/UsdPreviewSurface/ShaderUsdPreviewSurface.outputs:displacement>
+            token outputs:surface.connect = </PlantShop_obj/material/PotLamSG/UsdPreviewSurface/ShaderUsdPreviewSurface.outputs:surface>
+
+            def NodeGraph "UsdPreviewSurface"
+            {
+                def Shader "ShaderUsdPreviewSurface"
+                {
+                    uniform token info:id = "UsdPreviewSurface"
+                    float inputs:opacity.connect = </PlantShop_obj/material/PotLamSG/UsdPreviewSurface/opacityTextureShader.outputs:r>
+                    token outputs:displacement
+                    token outputs:surface
+                }
+
+                def Shader "TexCoordReader"
+                {
+                    uniform token info:id = "UsdPrimvarReader_float2"
+                    token inputs:varname = "st"
+                    float2 outputs:result
+                }
+
+                def Shader "opacityTextureShader"
+                {
+                    uniform token info:id = "UsdUVTexture"
+                    asset inputs:file.connect = </PlantShop_obj/material/PotLamSG.inputs:opacity_tex>
+                    float2 inputs:st.connect = </PlantShop_obj/material/PotLamSG/UsdPreviewSurface/TexCoordReader.outputs:result>
+                    token inputs:wrapS = "repeat"
+                    token inputs:wrapT = "repeat"
+                    float outputs:r
+                }
+            }
+        }
+
+        def Material "RecLamSG" (
+            customData = {
+                dictionary adobe = {
+                    dictionary painter = {
+                        asset painterProject_spp = @C:/Users/ferri/OneDrive/Desktop/ClassWork/PlantShop3.spp@
+                    }
+                }
+            }
+        )
+        {
+            asset inputs:opacity_tex = @PlantShop3_textures/RecLamSG_Alpha.1001.png@
+            token outputs:displacement.connect = </PlantShop_obj/material/RecLamSG/UsdPreviewSurface/ShaderUsdPreviewSurface.outputs:displacement>
+            token outputs:surface.connect = </PlantShop_obj/material/RecLamSG/UsdPreviewSurface/ShaderUsdPreviewSurface.outputs:surface>
+
+            def NodeGraph "UsdPreviewSurface"
+            {
+                def Shader "ShaderUsdPreviewSurface"
+                {
+                    uniform token info:id = "UsdPreviewSurface"
+                    float inputs:opacity.connect = </PlantShop_obj/material/RecLamSG/UsdPreviewSurface/opacityTextureShader.outputs:r>
+                    token outputs:displacement
+                    token outputs:surface
+                }
+
+                def Shader "TexCoordReader"
+                {
+                    uniform token info:id = "UsdPrimvarReader_float2"
+                    token inputs:varname = "st"
+                    float2 outputs:result
+                }
+
+                def Shader "opacityTextureShader"
+                {
+                    uniform token info:id = "UsdUVTexture"
+                    asset inputs:file.connect = </PlantShop_obj/material/RecLamSG.inputs:opacity_tex>
+                    float2 inputs:st.connect = </PlantShop_obj/material/RecLamSG/UsdPreviewSurface/TexCoordReader.outputs:result>
+                    token inputs:wrapS = "repeat"
+                    token inputs:wrapT = "repeat"
+                    float outputs:r
+                }
+            }
+        }
+
+        def Material "RecPlayerLamSG" (
+            customData = {
+                dictionary adobe = {
+                    dictionary painter = {
+                        asset painterProject_spp = @C:/Users/ferri/OneDrive/Desktop/ClassWork/PlantShop3.spp@
+                    }
+                }
+            }
+        )
+        {
+            asset inputs:opacity_tex = @PlantShop3_textures/RecPlayerLamSG_Alpha.1001.png@
+            token outputs:displacement.connect = </PlantShop_obj/material/RecPlayerLamSG/UsdPreviewSurface/ShaderUsdPreviewSurface.outputs:displacement>
+            token outputs:surface.connect = </PlantShop_obj/material/RecPlayerLamSG/UsdPreviewSurface/ShaderUsdPreviewSurface.outputs:surface>
+
+            def NodeGraph "UsdPreviewSurface"
+            {
+                def Shader "ShaderUsdPreviewSurface"
+                {
+                    uniform token info:id = "UsdPreviewSurface"
+                    float inputs:opacity.connect = </PlantShop_obj/material/RecPlayerLamSG/UsdPreviewSurface/opacityTextureShader.outputs:r>
+                    token outputs:displacement
+                    token outputs:surface
+                }
+
+                def Shader "TexCoordReader"
+                {
+                    uniform token info:id = "UsdPrimvarReader_float2"
+                    token inputs:varname = "st"
+                    float2 outputs:result
+                }
+
+                def Shader "opacityTextureShader"
+                {
+                    uniform token info:id = "UsdUVTexture"
+                    asset inputs:file.connect = </PlantShop_obj/material/RecPlayerLamSG.inputs:opacity_tex>
+                    float2 inputs:st.connect = </PlantShop_obj/material/RecPlayerLamSG/UsdPreviewSurface/TexCoordReader.outputs:result>
+                    token inputs:wrapS = "repeat"
+                    token inputs:wrapT = "repeat"
+                    float outputs:r
+                }
+            }
+        }
+
+        def Material "RecRakLamSG" (
+            customData = {
+                dictionary adobe = {
+                    dictionary painter = {
+                        asset painterProject_spp = @C:/Users/ferri/OneDrive/Desktop/ClassWork/PlantShop3.spp@
+                    }
+                }
+            }
+        )
+        {
+            asset inputs:opacity_tex = @PlantShop3_textures/RecRakLamSG_Alpha.1001.png@
+            token outputs:displacement.connect = </PlantShop_obj/material/RecRakLamSG/UsdPreviewSurface/ShaderUsdPreviewSurface.outputs:displacement>
+            token outputs:surface.connect = </PlantShop_obj/material/RecRakLamSG/UsdPreviewSurface/ShaderUsdPreviewSurface.outputs:surface>
+
+            def NodeGraph "UsdPreviewSurface"
+            {
+                def Shader "ShaderUsdPreviewSurface"
+                {
+                    uniform token info:id = "UsdPreviewSurface"
+                    float inputs:opacity.connect = </PlantShop_obj/material/RecRakLamSG/UsdPreviewSurface/opacityTextureShader.outputs:r>
+                    token outputs:displacement
+                    token outputs:surface
+                }
+
+                def Shader "TexCoordReader"
+                {
+                    uniform token info:id = "UsdPrimvarReader_float2"
+                    token inputs:varname = "st"
+                    float2 outputs:result
+                }
+
+                def Shader "opacityTextureShader"
+                {
+                    uniform token info:id = "UsdUVTexture"
+                    asset inputs:file.connect = </PlantShop_obj/material/RecRakLamSG.inputs:opacity_tex>
+                    float2 inputs:st.connect = </PlantShop_obj/material/RecRakLamSG/UsdPreviewSurface/TexCoordReader.outputs:result>
+                    token inputs:wrapS = "repeat"
+                    token inputs:wrapT = "repeat"
+                    float outputs:r
+                }
+            }
+        }
+
+        def Material "ShopBaseLamSG" (
+            customData = {
+                dictionary adobe = {
+                    dictionary painter = {
+                        asset painterProject_spp = @C:/Users/ferri/OneDrive/Desktop/ClassWork/PlantShop3.spp@
+                    }
+                }
+            }
+        )
+        {
+            asset inputs:opacity_tex = @PlantShop3_textures/ShopBaseLamSG_Alpha.1001.png@
+            token outputs:displacement.connect = </PlantShop_obj/material/ShopBaseLamSG/UsdPreviewSurface/ShaderUsdPreviewSurface.outputs:displacement>
+            token outputs:surface.connect = </PlantShop_obj/material/ShopBaseLamSG/UsdPreviewSurface/ShaderUsdPreviewSurface.outputs:surface>
+
+            def NodeGraph "UsdPreviewSurface"
+            {
+                def Shader "ShaderUsdPreviewSurface"
+                {
+                    uniform token info:id = "UsdPreviewSurface"
+                    float inputs:opacity.connect = </PlantShop_obj/material/ShopBaseLamSG/UsdPreviewSurface/opacityTextureShader.outputs:r>
+                    token outputs:displacement
+                    token outputs:surface
+                }
+
+                def Shader "TexCoordReader"
+                {
+                    uniform token info:id = "UsdPrimvarReader_float2"
+                    token inputs:varname = "st"
+                    float2 outputs:result
+                }
+
+                def Shader "opacityTextureShader"
+                {
+                    uniform token info:id = "UsdUVTexture"
+                    asset inputs:file.connect = </PlantShop_obj/material/ShopBaseLamSG.inputs:opacity_tex>
+                    float2 inputs:st.connect = </PlantShop_obj/material/ShopBaseLamSG/UsdPreviewSurface/TexCoordReader.outputs:result>
+                    token inputs:wrapS = "repeat"
+                    token inputs:wrapT = "repeat"
+                    float outputs:r
+                }
+            }
+        }
+
+        def Material "ShovelLamSG" (
+            customData = {
+                dictionary adobe = {
+                    dictionary painter = {
+                        asset painterProject_spp = @C:/Users/ferri/OneDrive/Desktop/ClassWork/PlantShop3.spp@
+                    }
+                }
+            }
+        )
+        {
+            asset inputs:opacity_tex = @PlantShop3_textures/ShovelLamSG_Alpha.1001.png@
+            token outputs:displacement.connect = </PlantShop_obj/material/ShovelLamSG/UsdPreviewSurface/ShaderUsdPreviewSurface.outputs:displacement>
+            token outputs:surface.connect = </PlantShop_obj/material/ShovelLamSG/UsdPreviewSurface/ShaderUsdPreviewSurface.outputs:surface>
+
+            def NodeGraph "UsdPreviewSurface"
+            {
+                def Shader "ShaderUsdPreviewSurface"
+                {
+                    uniform token info:id = "UsdPreviewSurface"
+                    float inputs:opacity.connect = </PlantShop_obj/material/ShovelLamSG/UsdPreviewSurface/opacityTextureShader.outputs:r>
+                    token outputs:displacement
+                    token outputs:surface
+                }
+
+                def Shader "TexCoordReader"
+                {
+                    uniform token info:id = "UsdPrimvarReader_float2"
+                    token inputs:varname = "st"
+                    float2 outputs:result
+                }
+
+                def Shader "opacityTextureShader"
+                {
+                    uniform token info:id = "UsdUVTexture"
+                    asset inputs:file.connect = </PlantShop_obj/material/ShovelLamSG.inputs:opacity_tex>
+                    float2 inputs:st.connect = </PlantShop_obj/material/ShovelLamSG/UsdPreviewSurface/TexCoordReader.outputs:result>
+                    token inputs:wrapS = "repeat"
+                    token inputs:wrapT = "repeat"
+                    float outputs:r
+                }
+            }
+        }
+
+        def Material "SoilLamSG" (
+            customData = {
+                dictionary adobe = {
+                    dictionary painter = {
+                        asset painterProject_spp = @C:/Users/ferri/OneDrive/Desktop/ClassWork/PlantShop3.spp@
+                    }
+                }
+            }
+        )
+        {
+            asset inputs:opacity_tex = @PlantShop3_textures/SoilLamSG_Alpha.1001.png@
+            token outputs:displacement.connect = </PlantShop_obj/material/SoilLamSG/UsdPreviewSurface/ShaderUsdPreviewSurface.outputs:displacement>
+            token outputs:surface.connect = </PlantShop_obj/material/SoilLamSG/UsdPreviewSurface/ShaderUsdPreviewSurface.outputs:surface>
+
+            def NodeGraph "UsdPreviewSurface"
+            {
+                def Shader "ShaderUsdPreviewSurface"
+                {
+                    uniform token info:id = "UsdPreviewSurface"
+                    float inputs:opacity.connect = </PlantShop_obj/material/SoilLamSG/UsdPreviewSurface/opacityTextureShader.outputs:r>
+                    token outputs:displacement
+                    token outputs:surface
+                }
+
+                def Shader "TexCoordReader"
+                {
+                    uniform token info:id = "UsdPrimvarReader_float2"
+                    token inputs:varname = "st"
+                    float2 outputs:result
+                }
+
+                def Shader "opacityTextureShader"
+                {
+                    uniform token info:id = "UsdUVTexture"
+                    asset inputs:file.connect = </PlantShop_obj/material/SoilLamSG.inputs:opacity_tex>
+                    float2 inputs:st.connect = </PlantShop_obj/material/SoilLamSG/UsdPreviewSurface/TexCoordReader.outputs:result>
+                    token inputs:wrapS = "repeat"
+                    token inputs:wrapT = "repeat"
+                    float outputs:r
+                }
+            }
+        }
+
+        def Material "StackedTableLamSG" (
+            customData = {
+                dictionary adobe = {
+                    dictionary painter = {
+                        asset painterProject_spp = @C:/Users/ferri/OneDrive/Desktop/ClassWork/PlantShop3.spp@
+                    }
+                }
+            }
+        )
+        {
+            asset inputs:opacity_tex = @PlantShop3_textures/StackedTableLamSG_Alpha.1001.png@
+            token outputs:displacement.connect = </PlantShop_obj/material/StackedTableLamSG/UsdPreviewSurface/ShaderUsdPreviewSurface.outputs:displacement>
+            token outputs:surface.connect = </PlantShop_obj/material/StackedTableLamSG/UsdPreviewSurface/ShaderUsdPreviewSurface.outputs:surface>
+
+            def NodeGraph "UsdPreviewSurface"
+            {
+                def Shader "ShaderUsdPreviewSurface"
+                {
+                    uniform token info:id = "UsdPreviewSurface"
+                    float inputs:opacity.connect = </PlantShop_obj/material/StackedTableLamSG/UsdPreviewSurface/opacityTextureShader.outputs:r>
+                    token outputs:displacement
+                    token outputs:surface
+                }
+
+                def Shader "TexCoordReader"
+                {
+                    uniform token info:id = "UsdPrimvarReader_float2"
+                    token inputs:varname = "st"
+                    float2 outputs:result
+                }
+
+                def Shader "opacityTextureShader"
+                {
+                    uniform token info:id = "UsdUVTexture"
+                    asset inputs:file.connect = </PlantShop_obj/material/StackedTableLamSG.inputs:opacity_tex>
+                    float2 inputs:st.connect = </PlantShop_obj/material/StackedTableLamSG/UsdPreviewSurface/TexCoordReader.outputs:result>
+                    token inputs:wrapS = "repeat"
+                    token inputs:wrapT = "repeat"
+                    float outputs:r
+                }
+            }
+        }
+
+        def Material "VaseLamSG" (
+            customData = {
+                dictionary adobe = {
+                    dictionary painter = {
+                        asset painterProject_spp = @C:/Users/ferri/OneDrive/Desktop/ClassWork/PlantShop3.spp@
+                    }
+                }
+            }
+        )
+        {
+            asset inputs:opacity_tex = @PlantShop3_textures/VaseLamSG_Alpha.1001.png@
+            token outputs:displacement.connect = </PlantShop_obj/material/VaseLamSG/UsdPreviewSurface/ShaderUsdPreviewSurface.outputs:displacement>
+            token outputs:surface.connect = </PlantShop_obj/material/VaseLamSG/UsdPreviewSurface/ShaderUsdPreviewSurface.outputs:surface>
+
+            def NodeGraph "UsdPreviewSurface"
+            {
+                def Shader "ShaderUsdPreviewSurface"
+                {
+                    uniform token info:id = "UsdPreviewSurface"
+                    float inputs:opacity.connect = </PlantShop_obj/material/VaseLamSG/UsdPreviewSurface/opacityTextureShader.outputs:r>
+                    token outputs:displacement
+                    token outputs:surface
+                }
+
+                def Shader "TexCoordReader"
+                {
+                    uniform token info:id = "UsdPrimvarReader_float2"
+                    token inputs:varname = "st"
+                    float2 outputs:result
+                }
+
+                def Shader "opacityTextureShader"
+                {
+                    uniform token info:id = "UsdUVTexture"
+                    asset inputs:file.connect = </PlantShop_obj/material/VaseLamSG.inputs:opacity_tex>
+                    float2 inputs:st.connect = </PlantShop_obj/material/VaseLamSG/UsdPreviewSurface/TexCoordReader.outputs:result>
+                    token inputs:wrapS = "repeat"
+                    token inputs:wrapT = "repeat"
+                    float outputs:r
+                }
+            }
+        }
+
+        def Material "WaterCanLamSG" (
+            customData = {
+                dictionary adobe = {
+                    dictionary painter = {
+                        asset painterProject_spp = @C:/Users/ferri/OneDrive/Desktop/ClassWork/PlantShop3.spp@
+                    }
+                }
+            }
+        )
+        {
+            asset inputs:opacity_tex = @PlantShop3_textures/WaterCanLamSG_Alpha.1001.png@
+            token outputs:displacement.connect = </PlantShop_obj/material/WaterCanLamSG/UsdPreviewSurface/ShaderUsdPreviewSurface.outputs:displacement>
+            token outputs:surface.connect = </PlantShop_obj/material/WaterCanLamSG/UsdPreviewSurface/ShaderUsdPreviewSurface.outputs:surface>
+
+            def NodeGraph "UsdPreviewSurface"
+            {
+                def Shader "ShaderUsdPreviewSurface"
+                {
+                    uniform token info:id = "UsdPreviewSurface"
+                    float inputs:opacity.connect = </PlantShop_obj/material/WaterCanLamSG/UsdPreviewSurface/opacityTextureShader.outputs:r>
+                    token outputs:displacement
+                    token outputs:surface
+                }
+
+                def Shader "TexCoordReader"
+                {
+                    uniform token info:id = "UsdPrimvarReader_float2"
+                    token inputs:varname = "st"
+                    float2 outputs:result
+                }
+
+                def Shader "opacityTextureShader"
+                {
+                    uniform token info:id = "UsdUVTexture"
+                    asset inputs:file.connect = </PlantShop_obj/material/WaterCanLamSG.inputs:opacity_tex>
+                    float2 inputs:st.connect = </PlantShop_obj/material/WaterCanLamSG/UsdPreviewSurface/TexCoordReader.outputs:result>
+                    token inputs:wrapS = "repeat"
+                    token inputs:wrapT = "repeat"
+                    float outputs:r
+                }
+            }
+        }
+
+        def Material "WindowDirtLamSG" (
+            customData = {
+                dictionary adobe = {
+                    dictionary painter = {
+                        asset painterProject_spp = @C:/Users/ferri/OneDrive/Desktop/ClassWork/PlantShop3.spp@
+                    }
+                }
+            }
+        )
+        {
+            asset inputs:opacity_tex = @PlantShop3_textures/WindowDirtLamSG_Alpha.1001.png@
+            token outputs:displacement.connect = </PlantShop_obj/material/WindowDirtLamSG/UsdPreviewSurface/ShaderUsdPreviewSurface.outputs:displacement>
+            token outputs:surface.connect = </PlantShop_obj/material/WindowDirtLamSG/UsdPreviewSurface/ShaderUsdPreviewSurface.outputs:surface>
+
+            def NodeGraph "UsdPreviewSurface"
+            {
+                def Shader "ShaderUsdPreviewSurface"
+                {
+                    uniform token info:id = "UsdPreviewSurface"
+                    float inputs:opacity.connect = </PlantShop_obj/material/WindowDirtLamSG/UsdPreviewSurface/opacityTextureShader.outputs:r>
+                    token outputs:displacement
+                    token outputs:surface
+                }
+
+                def Shader "TexCoordReader"
+                {
+                    uniform token info:id = "UsdPrimvarReader_float2"
+                    token inputs:varname = "st"
+                    float2 outputs:result
+                }
+
+                def Shader "opacityTextureShader"
+                {
+                    uniform token info:id = "UsdUVTexture"
+                    asset inputs:file.connect = </PlantShop_obj/material/WindowDirtLamSG.inputs:opacity_tex>
+                    float2 inputs:st.connect = </PlantShop_obj/material/WindowDirtLamSG/UsdPreviewSurface/TexCoordReader.outputs:result>
+                    token inputs:wrapS = "repeat"
+                    token inputs:wrapT = "repeat"
+                    float outputs:r
+                }
+            }
+        }
+
+        def Material "WindowTableLamSG" (
+            customData = {
+                dictionary adobe = {
+                    dictionary painter = {
+                        asset painterProject_spp = @C:/Users/ferri/OneDrive/Desktop/ClassWork/PlantShop3.spp@
+                    }
+                }
+            }
+        )
+        {
+            asset inputs:opacity_tex = @PlantShop3_textures/WindowTableLamSG_Alpha.1001.png@
+            token outputs:displacement.connect = </PlantShop_obj/material/WindowTableLamSG/UsdPreviewSurface/ShaderUsdPreviewSurface.outputs:displacement>
+            token outputs:surface.connect = </PlantShop_obj/material/WindowTableLamSG/UsdPreviewSurface/ShaderUsdPreviewSurface.outputs:surface>
+
+            def NodeGraph "UsdPreviewSurface"
+            {
+                def Shader "ShaderUsdPreviewSurface"
+                {
+                    uniform token info:id = "UsdPreviewSurface"
+                    float inputs:opacity.connect = </PlantShop_obj/material/WindowTableLamSG/UsdPreviewSurface/opacityTextureShader.outputs:r>
+                    token outputs:displacement
+                    token outputs:surface
+                }
+
+                def Shader "TexCoordReader"
+                {
+                    uniform token info:id = "UsdPrimvarReader_float2"
+                    token inputs:varname = "st"
+                    float2 outputs:result
+                }
+
+                def Shader "opacityTextureShader"
+                {
+                    uniform token info:id = "UsdUVTexture"
+                    asset inputs:file.connect = </PlantShop_obj/material/WindowTableLamSG.inputs:opacity_tex>
+                    float2 inputs:st.connect = </PlantShop_obj/material/WindowTableLamSG/UsdPreviewSurface/TexCoordReader.outputs:result>
+                    token inputs:wrapS = "repeat"
+                    token inputs:wrapT = "repeat"
+                    float outputs:r
+                }
+            }
+        }
+
+        def Material "WorkingTableLamSG" (
+            customData = {
+                dictionary adobe = {
+                    dictionary painter = {
+                        asset painterProject_spp = @C:/Users/ferri/OneDrive/Desktop/ClassWork/PlantShop3.spp@
+                    }
+                }
+            }
+        )
+        {
+            asset inputs:opacity_tex = @PlantShop3_textures/WorkingTableLamSG_Alpha.1001.png@
+            token outputs:displacement.connect = </PlantShop_obj/material/WorkingTableLamSG/UsdPreviewSurface/ShaderUsdPreviewSurface.outputs:displacement>
+            token outputs:surface.connect = </PlantShop_obj/material/WorkingTableLamSG/UsdPreviewSurface/ShaderUsdPreviewSurface.outputs:surface>
+
+            def NodeGraph "UsdPreviewSurface"
+            {
+                def Shader "ShaderUsdPreviewSurface"
+                {
+                    uniform token info:id = "UsdPreviewSurface"
+                    float inputs:opacity.connect = </PlantShop_obj/material/WorkingTableLamSG/UsdPreviewSurface/opacityTextureShader.outputs:r>
+                    token outputs:displacement
+                    token outputs:surface
+                }
+
+                def Shader "TexCoordReader"
+                {
+                    uniform token info:id = "UsdPrimvarReader_float2"
+                    token inputs:varname = "st"
+                    float2 outputs:result
+                }
+
+                def Shader "opacityTextureShader"
+                {
+                    uniform token info:id = "UsdUVTexture"
+                    asset inputs:file.connect = </PlantShop_obj/material/WorkingTableLamSG.inputs:opacity_tex>
+                    float2 inputs:st.connect = </PlantShop_obj/material/WorkingTableLamSG/UsdPreviewSurface/TexCoordReader.outputs:result>
+                    token inputs:wrapS = "repeat"
+                    token inputs:wrapT = "repeat"
+                    float outputs:r
+                }
+            }
+        }
+
+        def Material "BasketLam" (
+            customData = {
+                dictionary adobe = {
+                    dictionary painter = {
+                        asset painterProject_spp = @C:/Users/ferri/OneDrive/Desktop/ClassWork/PlantShop3.spp@
+                    }
+                }
+            }
+        )
+        {
+            asset inputs:opacity_tex = @PlantShop3_textures/BasketLam_Alpha.1001.png@
+            token outputs:displacement.connect = </PlantShop_obj/material/BasketLam/UsdPreviewSurface/ShaderUsdPreviewSurface.outputs:displacement>
+            token outputs:surface.connect = </PlantShop_obj/material/BasketLam/UsdPreviewSurface/ShaderUsdPreviewSurface.outputs:surface>
+
+            def NodeGraph "UsdPreviewSurface"
+            {
+                def Shader "ShaderUsdPreviewSurface"
+                {
+                    uniform token info:id = "UsdPreviewSurface"
+                    float inputs:opacity.connect = </PlantShop_obj/material/BasketLam/UsdPreviewSurface/opacityTextureShader.outputs:r>
+                    token outputs:displacement
+                    token outputs:surface
+                }
+
+                def Shader "TexCoordReader"
+                {
+                    uniform token info:id = "UsdPrimvarReader_float2"
+                    token inputs:varname = "st"
+                    float2 outputs:result
+                }
+
+                def Shader "opacityTextureShader"
+                {
+                    uniform token info:id = "UsdUVTexture"
+                    asset inputs:file.connect = </PlantShop_obj/material/BasketLam.inputs:opacity_tex>
+                    float2 inputs:st.connect = </PlantShop_obj/material/BasketLam/UsdPreviewSurface/TexCoordReader.outputs:result>
+                    token inputs:wrapS = "repeat"
+                    token inputs:wrapT = "repeat"
+                    float outputs:r
+                }
+            }
+        }
+    }
+
+    over "ShopBase_Shop"
+    {
+        over "ShopBase_Shop" (
+            prepend apiSchemas = ["MaterialBindingAPI"]
+        )
+        {
+            rel material:binding = </PlantShop_obj/material/ShopBaseLamSG>
+        }
+    }
+
+    over "Shop_FrontWall"
+    {
+        over "Shop_FrontWall" (
+            prepend apiSchemas = ["MaterialBindingAPI"]
+        )
+        {
+            rel material:binding = </PlantShop_obj/material/FrontWallLamSG>
+        }
+    }
+
+    over "Shop_FrontWall_WindowDirt"
+    {
+        over "Shop_FrontWall_WindowDirt" (
+            prepend apiSchemas = ["MaterialBindingAPI"]
+        )
+        {
+            rel material:binding = </PlantShop_obj/material/WindowDirtLamSG>
+        }
+    }
+
+    over "Shop_FrontWall_Door"
+    {
+        over "Shop_FrontWall_Door" (
+            prepend apiSchemas = ["MaterialBindingAPI"]
+        )
+        {
+            rel material:binding = </PlantShop_obj/material/DoorLamSG>
+        }
+    }
+
+    over "Shop_FrontWall_Door_Knob9"
+    {
+        over "Shop_FrontWall_Door_Knob9" (
+            prepend apiSchemas = ["MaterialBindingAPI"]
+        )
+        {
+            rel material:binding = </PlantShop_obj/material/KnobLamSG>
+        }
+    }
+
+    over "Shop_FrontWall_Door_Knob10"
+    {
+        over "Shop_FrontWall_Door_Knob10" (
+            prepend apiSchemas = ["MaterialBindingAPI"]
+        )
+        {
+            rel material:binding = </PlantShop_obj/material/KnobLamSG>
+        }
+    }
+
+    over "Shop_Cabinet"
+    {
+        over "Shop_Cabinet" (
+            prepend apiSchemas = ["MaterialBindingAPI"]
+        )
+        {
+            rel material:binding = </PlantShop_obj/material/CabinetLamSG>
+        }
+    }
+
+    over "Shop_Cabinet_Knob13"
+    {
+        over "Shop_Cabinet_Knob13" (
+            prepend apiSchemas = ["MaterialBindingAPI"]
+        )
+        {
+            rel material:binding = </PlantShop_obj/material/KnobLamSG>
+        }
+    }
+
+    over "Shop_Cabinet_Knob14"
+    {
+        over "Shop_Cabinet_Knob14" (
+            prepend apiSchemas = ["MaterialBindingAPI"]
+        )
+        {
+            rel material:binding = </PlantShop_obj/material/KnobLamSG>
+        }
+    }
+
+    over "Shop_Cabinet_Knob15"
+    {
+        over "Shop_Cabinet_Knob15" (
+            prepend apiSchemas = ["MaterialBindingAPI"]
+        )
+        {
+            rel material:binding = </PlantShop_obj/material/KnobLamSG>
+        }
+    }
+
+    over "Shop_CabinetAndSink"
+    {
+        over "Shop_CabinetAndSink" (
+            prepend apiSchemas = ["MaterialBindingAPI"]
+        )
+        {
+            rel material:binding = </PlantShop_obj/material/CabSinkLamSG>
+        }
+    }
+
+    over "Shop_CabinetAndSink_Knob11"
+    {
+        over "Shop_CabinetAndSink_Knob11" (
+            prepend apiSchemas = ["MaterialBindingAPI"]
+        )
+        {
+            rel material:binding = </PlantShop_obj/material/KnobLamSG>
+        }
+    }
+
+    over "Shop_CabinetAndSink_Knob12"
+    {
+        over "Shop_CabinetAndSink_Knob12" (
+            prepend apiSchemas = ["MaterialBindingAPI"]
+        )
+        {
+            rel material:binding = </PlantShop_obj/material/KnobLamSG>
+        }
+    }
+
+    over "Shop_Table1"
+    {
+        over "Shop_Table1" (
+            prepend apiSchemas = ["MaterialBindingAPI"]
+        )
+        {
+            rel material:binding = </PlantShop_obj/material/StackedTableLamSG>
+        }
+    }
+
+    over "Shop_Table1_Table6"
+    {
+        over "Shop_Table1_Table6" (
+            prepend apiSchemas = ["MaterialBindingAPI"]
+        )
+        {
+            rel material:binding = </PlantShop_obj/material/StackedTableLamSG>
+        }
+    }
+
+    over "Shop_Table1_Table6_Table7"
+    {
+        over "Shop_Table1_Table6_Table7" (
+            prepend apiSchemas = ["MaterialBindingAPI"]
+        )
+        {
+            rel material:binding = </PlantShop_obj/material/StackedTableLamSG>
+        }
+    }
+
+    over "Shop_Light1"
+    {
+        over "Shop_Light1" (
+            prepend apiSchemas = ["MaterialBindingAPI"]
+        )
+        {
+            rel material:binding = </PlantShop_obj/material/LightLamSG>
+        }
+    }
+
+    over "Shop_Light3"
+    {
+        over "Shop_Light3" (
+            prepend apiSchemas = ["MaterialBindingAPI"]
+        )
+        {
+            rel material:binding = </PlantShop_obj/material/LightLamSG>
+        }
+    }
+
+    over "Shop_Light4"
+    {
+        over "Shop_Light4" (
+            prepend apiSchemas = ["MaterialBindingAPI"]
+        )
+        {
+            rel material:binding = </PlantShop_obj/material/LightLamSG>
+        }
+    }
+
+    over "Shop_Basket"
+    {
+        over "Shop_Basket" (
+            prepend apiSchemas = ["MaterialBindingAPI"]
+        )
+        {
+            rel material:binding = </PlantShop_obj/material/BasketLam>
+        }
+    }
+
+    over "Shop_Bell"
+    {
+        over "Shop_Bell" (
+            prepend apiSchemas = ["MaterialBindingAPI"]
+        )
+        {
+            rel material:binding = </PlantShop_obj/material/BellLamSG>
+        }
+    }
+
+    over "Shop_RecordPlayer"
+    {
+        over "Shop_RecordPlayer" (
+            prepend apiSchemas = ["MaterialBindingAPI"]
+        )
+        {
+            rel material:binding = </PlantShop_obj/material/RecPlayerLamSG>
+        }
+    }
+
+    over "Shop_RecordPlayer_Lid"
+    {
+        over "Shop_RecordPlayer_Lid" (
+            prepend apiSchemas = ["MaterialBindingAPI"]
+        )
+        {
+            rel material:binding = </PlantShop_obj/material/RecPlayerLamSG>
+        }
+    }
+
+    over "Shop_Record"
+    {
+        over "Shop_Record" (
+            prepend apiSchemas = ["MaterialBindingAPI"]
+        )
+        {
+            rel material:binding = </PlantShop_obj/material/RecLamSG>
+        }
+    }
+
+    over "Shop_Record4"
+    {
+        over "Shop_Record4" (
+            prepend apiSchemas = ["MaterialBindingAPI"]
+        )
+        {
+            rel material:binding = </PlantShop_obj/material/RecLamSG>
+        }
+    }
+
+    over "Shop_Record3"
+    {
+        over "Shop_Record3" (
+            prepend apiSchemas = ["MaterialBindingAPI"]
+        )
+        {
+            rel material:binding = </PlantShop_obj/material/RecLamSG>
+        }
+    }
+
+    over "Shop_Hook1"
+    {
+        over "Shop_Hook1" (
+            prepend apiSchemas = ["MaterialBindingAPI"]
+        )
+        {
+            rel material:binding = </PlantShop_obj/material/HookLamSG>
+        }
+    }
+
+    over "Shop_Hook5"
+    {
+        over "Shop_Hook5" (
+            prepend apiSchemas = ["MaterialBindingAPI"]
+        )
+        {
+            rel material:binding = </PlantShop_obj/material/HookLamSG>
+        }
+    }
+
+    over "Shop_RecordRack"
+    {
+        over "Shop_RecordRack" (
+            prepend apiSchemas = ["MaterialBindingAPI"]
+        )
+        {
+            rel material:binding = </PlantShop_obj/material/RecRakLamSG>
+        }
+    }
+
+    over "Shop_Hook6"
+    {
+        over "Shop_Hook6" (
+            prepend apiSchemas = ["MaterialBindingAPI"]
+        )
+        {
+            rel material:binding = </PlantShop_obj/material/HookLamSG>
+        }
+    }
+
+    over "Shop_Hook7"
+    {
+        over "Shop_Hook7" (
+            prepend apiSchemas = ["MaterialBindingAPI"]
+        )
+        {
+            rel material:binding = </PlantShop_obj/material/HookLamSG>
+        }
+    }
+
+    over "Shop_Hook8"
+    {
+        over "Shop_Hook8" (
+            prepend apiSchemas = ["MaterialBindingAPI"]
+        )
+        {
+            rel material:binding = </PlantShop_obj/material/HookLamSG>
+        }
+    }
+
+    over "Shop_Table"
+    {
+        over "Shop_Table" (
+            prepend apiSchemas = ["MaterialBindingAPI"]
+        )
+        {
+            rel material:binding = </PlantShop_obj/material/LilTableLamSG>
+        }
+    }
+
+    over "Shop_Table4"
+    {
+        over "Shop_Table4" (
+            prepend apiSchemas = ["MaterialBindingAPI"]
+        )
+        {
+            rel material:binding = </PlantShop_obj/material/WindowTableLamSG>
+        }
+    }
+
+    over "Shop_Table5"
+    {
+        over "Shop_Table5" (
+            prepend apiSchemas = ["MaterialBindingAPI"]
+        )
+        {
+            rel material:binding = </PlantShop_obj/material/WorkingTableLamSG>
+        }
+    }
+
+    over "Shop_Mat"
+    {
+        over "Shop_Mat" (
+            prepend apiSchemas = ["MaterialBindingAPI"]
+        )
+        {
+            rel material:binding = </PlantShop_obj/material/MatLamSG>
+        }
+    }
+
+    over "Shop_Shovel"
+    {
+        over "Shop_Shovel" (
+            prepend apiSchemas = ["MaterialBindingAPI"]
+        )
+        {
+            rel material:binding = </PlantShop_obj/material/ShovelLamSG>
+        }
+    }
+
+    over "Shop_Computer"
+    {
+        over "Shop_Computer" (
+            prepend apiSchemas = ["MaterialBindingAPI"]
+        )
+        {
+            rel material:binding = </PlantShop_obj/material/ComputerLamSG>
+        }
+    }
+
+    over "Shop_PotBase_PlantPots"
+    {
+        over "Shop_PotBase_PlantPots" (
+            prepend apiSchemas = ["MaterialBindingAPI"]
+        )
+        {
+            rel material:binding = </PlantShop_obj/material/PotBaseLamSG>
+        }
+    }
+
+    over "Shop_PlantPots_PotBase2"
+    {
+        over "Shop_PlantPots_PotBase2" (
+            prepend apiSchemas = ["MaterialBindingAPI"]
+        )
+        {
+            rel material:binding = </PlantShop_obj/material/PotBaseLamSG>
+        }
+    }
+
+    over "Shop_PlantPots_PotBase3"
+    {
+        over "Shop_PlantPots_PotBase3" (
+            prepend apiSchemas = ["MaterialBindingAPI"]
+        )
+        {
+            rel material:binding = </PlantShop_obj/material/PotBaseLamSG>
+        }
+    }
+
+    over "Shop_PlantPots_PotBase4"
+    {
+        over "Shop_PlantPots_PotBase4" (
+            prepend apiSchemas = ["MaterialBindingAPI"]
+        )
+        {
+            rel material:binding = </PlantShop_obj/material/PotBaseLamSG>
+        }
+    }
+
+    over "Shop_PlantPots_PotBase5"
+    {
+        over "Shop_PlantPots_PotBase5" (
+            prepend apiSchemas = ["MaterialBindingAPI"]
+        )
+        {
+            rel material:binding = </PlantShop_obj/material/PotBaseLamSG>
+        }
+    }
+
+    over "Shop_PlantPots_PotBase6"
+    {
+        over "Shop_PlantPots_PotBase6" (
+            prepend apiSchemas = ["MaterialBindingAPI"]
+        )
+        {
+            rel material:binding = </PlantShop_obj/material/PotBaseLamSG>
+        }
+    }
+
+    over "Shop_PlantPots_PotBase7"
+    {
+        over "Shop_PlantPots_PotBase7" (
+            prepend apiSchemas = ["MaterialBindingAPI"]
+        )
+        {
+            rel material:binding = </PlantShop_obj/material/PotBaseLamSG>
+        }
+    }
+
+    over "Shop_PlantPots_Vase"
+    {
+        over "Shop_PlantPots_Vase" (
+            prepend apiSchemas = ["MaterialBindingAPI"]
+        )
+        {
+            rel material:binding = </PlantShop_obj/material/VaseLamSG>
+        }
+    }
+
+    over "Shop_PlantPots_Bucket1"
+    {
+        over "Shop_PlantPots_Bucket1" (
+            prepend apiSchemas = ["MaterialBindingAPI"]
+        )
+        {
+            rel material:binding = </PlantShop_obj/material/BucketLamSG>
+        }
+    }
+
+    over "Shop_PlantPots_WateringCan3"
+    {
+        over "Shop_PlantPots_WateringCan3" (
+            prepend apiSchemas = ["MaterialBindingAPI"]
+        )
+        {
+            rel material:binding = </PlantShop_obj/material/WaterCanLamSG>
+        }
+    }
+
+    over "Shop_PlantPots_WateringCan4"
+    {
+        over "Shop_PlantPots_WateringCan4" (
+            prepend apiSchemas = ["MaterialBindingAPI"]
+        )
+        {
+            rel material:binding = </PlantShop_obj/material/WaterCanLamSG>
+        }
+    }
+
+    over "Shop_PlantPots_Vase2"
+    {
+        over "Shop_PlantPots_Vase2" (
+            prepend apiSchemas = ["MaterialBindingAPI"]
+        )
+        {
+            rel material:binding = </PlantShop_obj/material/VaseLamSG>
+        }
+    }
+
+    over "Shop_PlantPots_Pot30"
+    {
+        over "Shop_PlantPots_Pot30" (
+            prepend apiSchemas = ["MaterialBindingAPI"]
+        )
+        {
+            rel material:binding = </PlantShop_obj/material/PotLamSG>
+        }
+    }
+
+    over "Shop_PlantPots_Pot30_Soil"
+    {
+        over "Shop_PlantPots_Pot30_Soil" (
+            prepend apiSchemas = ["MaterialBindingAPI"]
+        )
+        {
+            rel material:binding = </PlantShop_obj/material/SoilLamSG>
+        }
+    }
+
+    over "Shop_PlantPots_Pot30_PotBase"
+    {
+        over "Shop_PlantPots_Pot30_PotBase" (
+            prepend apiSchemas = ["MaterialBindingAPI"]
+        )
+        {
+            rel material:binding = </PlantShop_obj/material/PotBaseLamSG>
+        }
+    }
+
+    over "Shop_PlantPots_Pot31"
+    {
+        over "Shop_PlantPots_Pot31" (
+            prepend apiSchemas = ["MaterialBindingAPI"]
+        )
+        {
+            rel material:binding = </PlantShop_obj/material/PotLamSG>
+        }
+    }
+
+    over "Shop_PlantPots_Pot31_Soil"
+    {
+        over "Shop_PlantPots_Pot31_Soil" (
+            prepend apiSchemas = ["MaterialBindingAPI"]
+        )
+        {
+            rel material:binding = </PlantShop_obj/material/SoilLamSG>
+        }
+    }
+
+    over "Shop_PlantPots_Pot31_PotBase"
+    {
+        over "Shop_PlantPots_Pot31_PotBase" (
+            prepend apiSchemas = ["MaterialBindingAPI"]
+        )
+        {
+            rel material:binding = </PlantShop_obj/material/PotBaseLamSG>
+        }
+    }
+
+    over "Shop_PlantPots_Pot32"
+    {
+        over "Shop_PlantPots_Pot32" (
+            prepend apiSchemas = ["MaterialBindingAPI"]
+        )
+        {
+            rel material:binding = </PlantShop_obj/material/PotLamSG>
+        }
+    }
+
+    over "Shop_PlantPots_Pot32_Soil"
+    {
+        over "Shop_PlantPots_Pot32_Soil" (
+            prepend apiSchemas = ["MaterialBindingAPI"]
+        )
+        {
+            rel material:binding = </PlantShop_obj/material/SoilLamSG>
+        }
+    }
+
+    over "Shop_PlantPots_Pot32_PotBase"
+    {
+        over "Shop_PlantPots_Pot32_PotBase" (
+            prepend apiSchemas = ["MaterialBindingAPI"]
+        )
+        {
+            rel material:binding = </PlantShop_obj/material/PotBaseLamSG>
+        }
+    }
+
+    over "Shop_PlantPots_Pot33"
+    {
+        over "Shop_PlantPots_Pot33" (
+            prepend apiSchemas = ["MaterialBindingAPI"]
+        )
+        {
+            rel material:binding = </PlantShop_obj/material/PotLamSG>
+        }
+    }
+
+    over "Shop_PlantPots_Pot34"
+    {
+        over "Shop_PlantPots_Pot34" (
+            prepend apiSchemas = ["MaterialBindingAPI"]
+        )
+        {
+            rel material:binding = </PlantShop_obj/material/PotLamSG>
+        }
+    }
+
+    over "Shop_PlantPots_Pot35"
+    {
+        over "Shop_PlantPots_Pot35" (
+            prepend apiSchemas = ["MaterialBindingAPI"]
+        )
+        {
+            rel material:binding = </PlantShop_obj/material/PotLamSG>
+        }
+    }
+
+    over "Shop_PlantPots_Pot36"
+    {
+        over "Shop_PlantPots_Pot36" (
+            prepend apiSchemas = ["MaterialBindingAPI"]
+        )
+        {
+            rel material:binding = </PlantShop_obj/material/PotLamSG>
+        }
+    }
+
+    over "Shop_PlantPots_Pot37"
+    {
+        over "Shop_PlantPots_Pot37" (
+            prepend apiSchemas = ["MaterialBindingAPI"]
+        )
+        {
+            rel material:binding = </PlantShop_obj/material/PotLamSG>
+        }
+    }
+
+    over "Shop_PlantPots_Pot38"
+    {
+        over "Shop_PlantPots_Pot38" (
+            prepend apiSchemas = ["MaterialBindingAPI"]
+        )
+        {
+            rel material:binding = </PlantShop_obj/material/PotLamSG>
+        }
+    }
+
+    over "Shop_PlantPots_Pot39"
+    {
+        over "Shop_PlantPots_Pot39" (
+            prepend apiSchemas = ["MaterialBindingAPI"]
+        )
+        {
+            rel material:binding = </PlantShop_obj/material/PotLamSG>
+        }
+    }
+
+    over "Shop_PlantPots_Pot39_Soil"
+    {
+        over "Shop_PlantPots_Pot39_Soil" (
+            prepend apiSchemas = ["MaterialBindingAPI"]
+        )
+        {
+            rel material:binding = </PlantShop_obj/material/SoilLamSG>
+        }
+    }
+
+    over "Shop_PlantPots_Pot40"
+    {
+        over "Shop_PlantPots_Pot40" (
+            prepend apiSchemas = ["MaterialBindingAPI"]
+        )
+        {
+            rel material:binding = </PlantShop_obj/material/PotLamSG>
+        }
+    }
+
+    over "Shop_PlantPots_Pot40_Soil"
+    {
+        over "Shop_PlantPots_Pot40_Soil" (
+            prepend apiSchemas = ["MaterialBindingAPI"]
+        )
+        {
+            rel material:binding = </PlantShop_obj/material/SoilLamSG>
+        }
+    }
+
+    over "Shop_PlantPots_Pot41"
+    {
+        over "Shop_PlantPots_Pot41" (
+            prepend apiSchemas = ["MaterialBindingAPI"]
+        )
+        {
+            rel material:binding = </PlantShop_obj/material/PotLamSG>
+        }
+    }
+
+    over "Shop_PlantPots_Pot41_Soil"
+    {
+        over "Shop_PlantPots_Pot41_Soil" (
+            prepend apiSchemas = ["MaterialBindingAPI"]
+        )
+        {
+            rel material:binding = </PlantShop_obj/material/SoilLamSG>
+        }
+    }
+
+    over "Shop_PlantPots_Pot42"
+    {
+        over "Shop_PlantPots_Pot42" (
+            prepend apiSchemas = ["MaterialBindingAPI"]
+        )
+        {
+            rel material:binding = </PlantShop_obj/material/PotLamSG>
+        }
+    }
+
+    over "Shop_PlantPots_Pot43"
+    {
+        over "Shop_PlantPots_Pot43" (
+            prepend apiSchemas = ["MaterialBindingAPI"]
+        )
+        {
+            rel material:binding = </PlantShop_obj/material/PotLamSG>
+        }
+    }
+
+    over "Shop_PlantPots_Pot44"
+    {
+        over "Shop_PlantPots_Pot44" (
+            prepend apiSchemas = ["MaterialBindingAPI"]
+        )
+        {
+            rel material:binding = </PlantShop_obj/material/PotLamSG>
+        }
+    }
+
+    over "Shop_PlantPots_Pot45"
+    {
+        over "Shop_PlantPots_Pot45" (
+            prepend apiSchemas = ["MaterialBindingAPI"]
+        )
+        {
+            rel material:binding = </PlantShop_obj/material/PotLamSG>
+        }
+    }
+
+    over "Shop_PlantPots_Pot45_Soil"
+    {
+        over "Shop_PlantPots_Pot45_Soil" (
+            prepend apiSchemas = ["MaterialBindingAPI"]
+        )
+        {
+            rel material:binding = </PlantShop_obj/material/SoilLamSG>
+        }
+    }
+
+    over "Shop_PlantPots_Pot45_PotBase"
+    {
+        over "Shop_PlantPots_Pot45_PotBase" (
+            prepend apiSchemas = ["MaterialBindingAPI"]
+        )
+        {
+            rel material:binding = </PlantShop_obj/material/PotBaseLamSG>
+        }
+    }
+
+    over "Shop_PlantPots_Pot46"
+    {
+        over "Shop_PlantPots_Pot46" (
+            prepend apiSchemas = ["MaterialBindingAPI"]
+        )
+        {
+            rel material:binding = </PlantShop_obj/material/PotLamSG>
+        }
+    }
+
+    over "Shop_PlantPots_Pot46_Soil"
+    {
+        over "Shop_PlantPots_Pot46_Soil" (
+            prepend apiSchemas = ["MaterialBindingAPI"]
+        )
+        {
+            rel material:binding = </PlantShop_obj/material/SoilLamSG>
+        }
+    }
+
+    over "Shop_PlantPots_Pot46_PotBase"
+    {
+        over "Shop_PlantPots_Pot46_PotBase" (
+            prepend apiSchemas = ["MaterialBindingAPI"]
+        )
+        {
+            rel material:binding = </PlantShop_obj/material/PotBaseLamSG>
+        }
+    }
+
+    over "Shop_PlantPots_Pot47"
+    {
+        over "Shop_PlantPots_Pot47" (
+            prepend apiSchemas = ["MaterialBindingAPI"]
+        )
+        {
+            rel material:binding = </PlantShop_obj/material/PotLamSG>
+        }
+    }
+
+    over "Shop_PlantPots_Pot47_Soil"
+    {
+        over "Shop_PlantPots_Pot47_Soil" (
+            prepend apiSchemas = ["MaterialBindingAPI"]
+        )
+        {
+            rel material:binding = </PlantShop_obj/material/SoilLamSG>
+        }
+    }
+
+    over "Shop_PlantPots_Pot47_PotBase"
+    {
+        over "Shop_PlantPots_Pot47_PotBase" (
+            prepend apiSchemas = ["MaterialBindingAPI"]
+        )
+        {
+            rel material:binding = </PlantShop_obj/material/PotBaseLamSG>
+        }
+    }
+
+    over "Shop_PlantPots_Pot48"
+    {
+        over "Shop_PlantPots_Pot48" (
+            prepend apiSchemas = ["MaterialBindingAPI"]
+        )
+        {
+            rel material:binding = </PlantShop_obj/material/PotLamSG>
+        }
+    }
+
+    over "Shop_PlantPots_Pot48_Soil"
+    {
+        over "Shop_PlantPots_Pot48_Soil" (
+            prepend apiSchemas = ["MaterialBindingAPI"]
+        )
+        {
+            rel material:binding = </PlantShop_obj/material/SoilLamSG>
+        }
+    }
+
+    over "Shop_PlantPots_Pot48_PotBase"
+    {
+        over "Shop_PlantPots_Pot48_PotBase" (
+            prepend apiSchemas = ["MaterialBindingAPI"]
+        )
+        {
+            rel material:binding = </PlantShop_obj/material/PotBaseLamSG>
+        }
+    }
+
+    over "Shop_PlantPots_Pot49"
+    {
+        over "Shop_PlantPots_Pot49" (
+            prepend apiSchemas = ["MaterialBindingAPI"]
+        )
+        {
+            rel material:binding = </PlantShop_obj/material/PotLamSG>
+        }
+    }
+
+    over "Shop_PlantPots_Pot49_Soil"
+    {
+        over "Shop_PlantPots_Pot49_Soil" (
+            prepend apiSchemas = ["MaterialBindingAPI"]
+        )
+        {
+            rel material:binding = </PlantShop_obj/material/SoilLamSG>
+        }
+    }
+
+    over "Shop_PlantPots_Pot49_PotBase"
+    {
+        over "Shop_PlantPots_Pot49_PotBase" (
+            prepend apiSchemas = ["MaterialBindingAPI"]
+        )
+        {
+            rel material:binding = </PlantShop_obj/material/PotBaseLamSG>
+        }
+    }
+
+    over "Shop_PlantPots_Pot51"
+    {
+        over "Shop_PlantPots_Pot51" (
+            prepend apiSchemas = ["MaterialBindingAPI"]
+        )
+        {
+            rel material:binding = </PlantShop_obj/material/PotLamSG>
+        }
+    }
+
+    over "Shop_PlantPots_Pot51_Soil"
+    {
+        over "Shop_PlantPots_Pot51_Soil" (
+            prepend apiSchemas = ["MaterialBindingAPI"]
+        )
+        {
+            rel material:binding = </PlantShop_obj/material/SoilLamSG>
+        }
+    }
+
+    over "Shop_PlantPots_Pot51_PotBase"
+    {
+        over "Shop_PlantPots_Pot51_PotBase" (
+            prepend apiSchemas = ["MaterialBindingAPI"]
+        )
+        {
+            rel material:binding = </PlantShop_obj/material/PotBaseLamSG>
+        }
+    }
+
+    over "Shop_PlantPots_Pot52"
+    {
+        over "Shop_PlantPots_Pot52" (
+            prepend apiSchemas = ["MaterialBindingAPI"]
+        )
+        {
+            rel material:binding = </PlantShop_obj/material/PotLamSG>
+        }
+    }
+
+    over "Shop_PlantPots_Pot52_Soil"
+    {
+        over "Shop_PlantPots_Pot52_Soil" (
+            prepend apiSchemas = ["MaterialBindingAPI"]
+        )
+        {
+            rel material:binding = </PlantShop_obj/material/SoilLamSG>
+        }
+    }
+
+    over "Shop_PlantPots_Pot52_PotBase"
+    {
+        over "Shop_PlantPots_Pot52_PotBase" (
+            prepend apiSchemas = ["MaterialBindingAPI"]
+        )
+        {
+            rel material:binding = </PlantShop_obj/material/PotBaseLamSG>
+        }
+    }
+
+    over "Shop_PlantPots_Pot53"
+    {
+        over "Shop_PlantPots_Pot53" (
+            prepend apiSchemas = ["MaterialBindingAPI"]
+        )
+        {
+            rel material:binding = </PlantShop_obj/material/PotLamSG>
+        }
+    }
+
+    over "Shop_PlantPots_Pot53_Soil"
+    {
+        over "Shop_PlantPots_Pot53_Soil" (
+            prepend apiSchemas = ["MaterialBindingAPI"]
+        )
+        {
+            rel material:binding = </PlantShop_obj/material/SoilLamSG>
+        }
+    }
+
+    over "Shop_PlantPots_Pot53_PotBase"
+    {
+        over "Shop_PlantPots_Pot53_PotBase" (
+            prepend apiSchemas = ["MaterialBindingAPI"]
+        )
+        {
+            rel material:binding = </PlantShop_obj/material/PotBaseLamSG>
+        }
+    }
+
+    over "Shop_PlantPots_Pot54"
+    {
+        over "Shop_PlantPots_Pot54" (
+            prepend apiSchemas = ["MaterialBindingAPI"]
+        )
+        {
+            rel material:binding = </PlantShop_obj/material/PotLamSG>
+        }
+    }
+
+    over "Shop_PlantPots_Pot54_Soil"
+    {
+        over "Shop_PlantPots_Pot54_Soil" (
+            prepend apiSchemas = ["MaterialBindingAPI"]
+        )
+        {
+            rel material:binding = </PlantShop_obj/material/SoilLamSG>
+        }
+    }
+
+    over "Shop_PlantPots_Pot54_PotBase"
+    {
+        over "Shop_PlantPots_Pot54_PotBase" (
+            prepend apiSchemas = ["MaterialBindingAPI"]
+        )
+        {
+            rel material:binding = </PlantShop_obj/material/PotBaseLamSG>
+        }
+    }
+
+    over "Shop_PlantPots_Pot55"
+    {
+        over "Shop_PlantPots_Pot55" (
+            prepend apiSchemas = ["MaterialBindingAPI"]
+        )
+        {
+            rel material:binding = </PlantShop_obj/material/PotLamSG>
+        }
+    }
+
+    over "Shop_PlantPots_Pot55_Soil"
+    {
+        over "Shop_PlantPots_Pot55_Soil" (
+            prepend apiSchemas = ["MaterialBindingAPI"]
+        )
+        {
+            rel material:binding = </PlantShop_obj/material/SoilLamSG>
+        }
+    }
+
+    over "Shop_PlantPots_Pot55_PotBase"
+    {
+        over "Shop_PlantPots_Pot55_PotBase" (
+            prepend apiSchemas = ["MaterialBindingAPI"]
+        )
+        {
+            rel material:binding = </PlantShop_obj/material/PotBaseLamSG>
+        }
+    }
+
+    over "Shop_PlantPots_Pot56"
+    {
+        over "Shop_PlantPots_Pot56" (
+            prepend apiSchemas = ["MaterialBindingAPI"]
+        )
+        {
+            rel material:binding = </PlantShop_obj/material/PotLamSG>
+        }
+    }
+
+    over "Shop_PlantPots_Pot56_Soil"
+    {
+        over "Shop_PlantPots_Pot56_Soil" (
+            prepend apiSchemas = ["MaterialBindingAPI"]
+        )
+        {
+            rel material:binding = </PlantShop_obj/material/SoilLamSG>
+        }
+    }
+
+    over "Shop_PlantPots_Pot56_PotBase"
+    {
+        over "Shop_PlantPots_Pot56_PotBase" (
+            prepend apiSchemas = ["MaterialBindingAPI"]
+        )
+        {
+            rel material:binding = </PlantShop_obj/material/PotBaseLamSG>
+        }
+    }
+
+    over "Shop_PlantPots_Pot57"
+    {
+        over "Shop_PlantPots_Pot57" (
+            prepend apiSchemas = ["MaterialBindingAPI"]
+        )
+        {
+            rel material:binding = </PlantShop_obj/material/PotLamSG>
+        }
+    }
+
+    over "Shop_PlantPots_Pot57_Soil"
+    {
+        over "Shop_PlantPots_Pot57_Soil" (
+            prepend apiSchemas = ["MaterialBindingAPI"]
+        )
+        {
+            rel material:binding = </PlantShop_obj/material/SoilLamSG>
+        }
+    }
+
+    over "Shop_PlantPots_Pot57_PotBase"
+    {
+        over "Shop_PlantPots_Pot57_PotBase" (
+            prepend apiSchemas = ["MaterialBindingAPI"]
+        )
+        {
+            rel material:binding = </PlantShop_obj/material/PotBaseLamSG>
+        }
+    }
+
+    over "Shop_PlantPots_Pot58"
+    {
+        over "Shop_PlantPots_Pot58" (
+            prepend apiSchemas = ["MaterialBindingAPI"]
+        )
+        {
+            rel material:binding = </PlantShop_obj/material/PotLamSG>
+        }
+    }
+
+    over "Shop_PlantPots_Pot58_Soil"
+    {
+        over "Shop_PlantPots_Pot58_Soil" (
+            prepend apiSchemas = ["MaterialBindingAPI"]
+        )
+        {
+            rel material:binding = </PlantShop_obj/material/SoilLamSG>
+        }
+    }
+
+    over "Shop_PlantPots_Pot58_PotBase"
+    {
+        over "Shop_PlantPots_Pot58_PotBase" (
+            prepend apiSchemas = ["MaterialBindingAPI"]
+        )
+        {
+            rel material:binding = </PlantShop_obj/material/PotBaseLamSG>
+        }
+    }
+
+    over "Shop_PlantPots_Pot59"
+    {
+        over "Shop_PlantPots_Pot59" (
+            prepend apiSchemas = ["MaterialBindingAPI"]
+        )
+        {
+            rel material:binding = </PlantShop_obj/material/PotLamSG>
+        }
+    }
+
+    over "Shop_PlantPots_Pot59_PotBase"
+    {
+        over "Shop_PlantPots_Pot59_PotBase" (
+            prepend apiSchemas = ["MaterialBindingAPI"]
+        )
+        {
+            rel material:binding = </PlantShop_obj/material/PotBaseLamSG>
+        }
+    }
+
+    over "Shop_WateringCan"
+    {
+        over "Shop_WateringCan" (
+            prepend apiSchemas = ["MaterialBindingAPI"]
+        )
+        {
+            rel material:binding = </PlantShop_obj/material/WaterCanLamSG>
+        }
+    }
+
+    over "Shop_Bucket2"
+    {
+        over "Shop_Bucket2" (
+            prepend apiSchemas = ["MaterialBindingAPI"]
+        )
+        {
+            rel material:binding = </PlantShop_obj/material/BucketLamSG>
+        }
+    }
+}
+
