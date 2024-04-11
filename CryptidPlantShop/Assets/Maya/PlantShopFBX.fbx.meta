@@ -1,0 +1,939 @@
+fileFormatVersion: 2
+guid: 215f2ec6a14127242b5c066a4b98ab39
+ModelImporter:
+  serializedVersion: 22200
+  internalIDToNameTable: []
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: BasketTexture
+    second: {fileID: 2100000, guid: bc21f683441294d479d2d70d60b1e6f3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: BellTexture
+    second: {fileID: 2100000, guid: 6aab65cbcf131204da893302ce9ac67f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: BucketTexture
+    second: {fileID: 2100000, guid: a494b398d612de54eb6131d29314afb1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: CabSinkTexture
+    second: {fileID: 2100000, guid: 1ab97ab90b7782a42a3567c01f8a06d6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: CabinetTexture
+    second: {fileID: 2100000, guid: 936a75693b0837447b7509adff7e989a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ComputerTexture
+    second: {fileID: 2100000, guid: 0b125403f3e021f4da3134dbf9679800, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: DoorTexture
+    second: {fileID: 2100000, guid: 1ea12657b563200459668b4716c50698, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: FrontWallTexture
+    second: {fileID: 2100000, guid: 9ea8a1ff8aed4344388f000c834bdd60, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: HookTexture
+    second: {fileID: 2100000, guid: 0db263e4bd96ddf499e60650dbc79aad, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: KnobTexture
+    second: {fileID: 2100000, guid: a96c09a62cc6494468df644ff064ed62, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: LightTexture
+    second: {fileID: 2100000, guid: fc68a8e197c22164c98b70c8b2064d40, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: LilTableTexture
+    second: {fileID: 2100000, guid: dcb397b4e8092c2439eeaa2da6a6d9d8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: MatTexture
+    second: {fileID: 2100000, guid: 3cb8b172be388f444a99da74dad92fa9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: PotBaseTexture
+    second: {fileID: 2100000, guid: 467e0c6e1fc865146a8c44d3afdeba97, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: PotTexture
+    second: {fileID: 2100000, guid: a12c2de27af46e84ca79ef05b6be4561, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: RecPlayerTexture
+    second: {fileID: 2100000, guid: d509420540efc4a4d94d6107d6532c72, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: RecRackTexture
+    second: {fileID: 2100000, guid: ffb46589169c6794ba4038ab4279c811, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: RecordTexture
+    second: {fileID: 2100000, guid: 35d8039940daea246a0ce5bb5df60fa7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ShopBaseTexture
+    second: {fileID: 2100000, guid: 7f28720af0b5b754195564ffd0ab8dfc, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ShovelTexture
+    second: {fileID: 2100000, guid: 808b3f8c08d1d8f4f92fa4fa79013ab2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: SoilTexture
+    second: {fileID: 2100000, guid: ae2fbc02c38403746b3a8269435a03f0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: StackedTableTexture
+    second: {fileID: 2100000, guid: e0202c9b669d6e1409d91b05d5437a44, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: VaseTexture
+    second: {fileID: 2100000, guid: 4e3ffa8947e114843927c6d9ae9292cb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: WaterCanTexture
+    second: {fileID: 2100000, guid: b9fbc795406f0c1439d33341c3bea6f8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: WindowDirtTexture
+    second: {fileID: 2100000, guid: c668c5e16c105774099ca2f3e8c0210d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: WindowTableTexture
+    second: {fileID: 2100000, guid: 96164ad5b87de2c458f9d9e01fb664a3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: WorkingTableTexture
+    second: {fileID: 2100000, guid: b3e3969a8e91c7d48bfccbc45e6e61f3, type: 2}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: FrontWallLamSG_Alpha.1001
+    second: {fileID: 2800000, guid: 6e9169985a977fa4d8c6de682b651364, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: LightLamSG_Alpha.1001
+    second: {fileID: 2800000, guid: 5843f848a61782a4abd1892dd00f3bb5, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: PlantShop_BasketLam_Emissive.1001
+    second: {fileID: 2800000, guid: ca7916894b8c07b489299bae640cc2bf, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: PlantShop_BasketLam_Height.1001
+    second: {fileID: 2800000, guid: 0b02773007677a843a20aa3387239b97, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: PlantShop_BasketLam_Metalness.1001
+    second: {fileID: 2800000, guid: 534c91750ff5d754daaf8dbf52d318f0, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: PlantShop_BasketLam_Normal.1001
+    second: {fileID: 2800000, guid: d9048015f7fc9f643b3454c4daa5ed0f, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: PlantShop_BasketLam_Roughness.1001
+    second: {fileID: 2800000, guid: 30cff22d07010934da7323c63bc3a363, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: PlantShop_BellLamSG_Emissive.1001
+    second: {fileID: 2800000, guid: 5b68e2eb227ac7a468f7ab746c534f4c, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: PlantShop_BellLamSG_Height.1001
+    second: {fileID: 2800000, guid: f7e980b11663a1c40b0781414eee5510, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: PlantShop_BellLamSG_Metalness.1001
+    second: {fileID: 2800000, guid: 5f0bce589c40c4c438834d2bf28f0144, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: PlantShop_BellLamSG_Normal.1001
+    second: {fileID: 2800000, guid: c723bf31ae9164b42b69a44dfde5c819, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: PlantShop_BellLamSG_Roughness.1001
+    second: {fileID: 2800000, guid: 4092be28700e7f14185ae3be8a8beafd, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: PlantShop_BucketLamSG_Emissive.1001
+    second: {fileID: 2800000, guid: 6267770a167d4ff4790e133491ea562d, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: PlantShop_BucketLamSG_Height.1001
+    second: {fileID: 2800000, guid: cb8b18a53df441f4c884d95843604338, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: PlantShop_BucketLamSG_Metalness.1001
+    second: {fileID: 2800000, guid: 8d39ad126d01b27499e532e48e8e1576, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: PlantShop_BucketLamSG_Normal.1001
+    second: {fileID: 2800000, guid: 9d64aceea52c58b409cc61ae1d8dd18c, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: PlantShop_BucketLamSG_Roughness.1001
+    second: {fileID: 2800000, guid: a289f4ff3ddba2c4ead1e926d71e4df1, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: PlantShop_CabSinkLamSG_Emissive.1001
+    second: {fileID: 2800000, guid: a9530399339d5d542a9451c24f150344, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: PlantShop_CabSinkLamSG_Height.1001
+    second: {fileID: 2800000, guid: 9cded9a4a9c7a034683ef514bc5e89a8, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: PlantShop_CabSinkLamSG_Metalness.1001
+    second: {fileID: 2800000, guid: 4caea2cac46dce546b7b551814973d7f, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: PlantShop_CabSinkLamSG_Normal.1001
+    second: {fileID: 2800000, guid: b382beca7760c284489c0463efe1f041, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: PlantShop_CabSinkLamSG_Roughness.1001
+    second: {fileID: 2800000, guid: c82e949d1038110438be8eb79d8f3e72, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: PlantShop_CabinetLamSG_Emissive.1001
+    second: {fileID: 2800000, guid: c26a7fe798d241d4392186b0daf01183, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: PlantShop_CabinetLamSG_Height.1001
+    second: {fileID: 2800000, guid: 88a2179cbfd44324ca576937b37955d4, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: PlantShop_CabinetLamSG_Metalness.1001
+    second: {fileID: 2800000, guid: 7da77dd069952074493fce2294e44c12, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: PlantShop_CabinetLamSG_Normal.1001
+    second: {fileID: 2800000, guid: 32c63aff0a9d8e148b2bf74ecde48f57, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: PlantShop_CabinetLamSG_Roughness.1001
+    second: {fileID: 2800000, guid: 7699260d199ff484ea6ccbccdd7bd23d, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: PlantShop_ComputerLamSG_Emissive.1001
+    second: {fileID: 2800000, guid: da9b90e57e8a8d4499d6dbe6788130b2, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: PlantShop_ComputerLamSG_Height.1001
+    second: {fileID: 2800000, guid: b9166f569358427478a313d6098cb82c, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: PlantShop_ComputerLamSG_Metalness.1001
+    second: {fileID: 2800000, guid: 103b7bd9d6df3a745b7f02e1b82044c4, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: PlantShop_ComputerLamSG_Normal.1001
+    second: {fileID: 2800000, guid: f1964d6b41487d346a48ef95441ba1ad, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: PlantShop_ComputerLamSG_Roughness.1001
+    second: {fileID: 2800000, guid: 23de820508fadde42833daf70b2f9306, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: PlantShop_DoorLamSG_Emissive.1001
+    second: {fileID: 2800000, guid: 30aebe8f8a1716e4db3cea30adbd4515, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: PlantShop_DoorLamSG_Height.1001
+    second: {fileID: 2800000, guid: bd6efcca6db26a14492f38065edb94d0, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: PlantShop_DoorLamSG_Metalness.1001
+    second: {fileID: 2800000, guid: 12eabd76beb47994986c4a8836ed0a3e, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: PlantShop_DoorLamSG_Normal.1001
+    second: {fileID: 2800000, guid: 73365d791e0bf28468107e2d39890c11, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: PlantShop_DoorLamSG_Roughness.1001
+    second: {fileID: 2800000, guid: 3f98c8bd9cc8ff7429c675e0b38255eb, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: PlantShop_FrontWallLamSG_Emissive.1001
+    second: {fileID: 2800000, guid: db8b7ee2a41f09541a4d5617aab73149, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: PlantShop_FrontWallLamSG_Height.1001
+    second: {fileID: 2800000, guid: c481a75dc6b054b4baff3a8affecf823, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: PlantShop_FrontWallLamSG_Metalness.1001
+    second: {fileID: 2800000, guid: 09f2964870104aa4198364f5e0b3fc5c, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: PlantShop_FrontWallLamSG_Normal.1001
+    second: {fileID: 2800000, guid: 5b447207966d1df4e94c15fc6e0ae4ee, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: PlantShop_FrontWallLamSG_Roughness.1001
+    second: {fileID: 2800000, guid: ba3ae1dd2e26326488e524c633b4addb, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: PlantShop_HookLamSG_Emissive.1001
+    second: {fileID: 2800000, guid: aab8bb834eaa9e74b8cca4006da0bda7, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: PlantShop_HookLamSG_Height.1001
+    second: {fileID: 2800000, guid: c4fa59c9009de5a4ea0042123bda3ded, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: PlantShop_HookLamSG_Metalness.1001
+    second: {fileID: 2800000, guid: d4360f4d35948c04399084107ec14185, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: PlantShop_HookLamSG_Normal.1001
+    second: {fileID: 2800000, guid: dc92fc6a1ef17db479db3a2566cd973b, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: PlantShop_HookLamSG_Roughness.1001
+    second: {fileID: 2800000, guid: 6e83b6f7e68620443957b865ce91b8f7, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: PlantShop_KnobLamSG_Emissive.1001
+    second: {fileID: 2800000, guid: fb2767e9ae87c2b46b773fb3e4182497, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: PlantShop_KnobLamSG_Height.1001
+    second: {fileID: 2800000, guid: 3c9395d8ac2c1e34c9776744bc55ccd6, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: PlantShop_KnobLamSG_Metalness.1001
+    second: {fileID: 2800000, guid: b021cb846faf397448eaed766637cfc7, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: PlantShop_KnobLamSG_Normal.1001
+    second: {fileID: 2800000, guid: 4c6b3e608e66ac441b385f52979f82ab, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: PlantShop_KnobLamSG_Roughness.1001
+    second: {fileID: 2800000, guid: 0720109eedce45741b5c7f331385f91c, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: PlantShop_LightLamSG_Emissive.1001
+    second: {fileID: 2800000, guid: ba4886a0e6a071543ad0b04e8b8a0ffc, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: PlantShop_LightLamSG_Height.1001
+    second: {fileID: 2800000, guid: b0447cbebf0f818408c47d9bc351d032, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: PlantShop_LightLamSG_Metalness.1001
+    second: {fileID: 2800000, guid: 1ff9e3c5f99520146bdedf66e2f7f24e, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: PlantShop_LightLamSG_Normal.1001
+    second: {fileID: 2800000, guid: 19a0f69b0607fac4fa40b388306a68e2, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: PlantShop_LightLamSG_Roughness.1001
+    second: {fileID: 2800000, guid: 1fb818bc0c456c3409f50e33fb97ce2b, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: PlantShop_LilTableLamSG_Emissive.1001
+    second: {fileID: 2800000, guid: 78d9a057433f7dc479d377cdab9ce0c0, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: PlantShop_LilTableLamSG_Height.1001
+    second: {fileID: 2800000, guid: 4ea1a76beabd3584489c4ad84d816136, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: PlantShop_LilTableLamSG_Metalness.1001
+    second: {fileID: 2800000, guid: f68c0d3918d76a3449dc8db595c007ec, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: PlantShop_LilTableLamSG_Normal.1001
+    second: {fileID: 2800000, guid: b426be5b8890ac641ae2a154392627fa, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: PlantShop_LilTableLamSG_Roughness.1001
+    second: {fileID: 2800000, guid: 449bb0e34ac316b4dbf76f730dab53e2, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: PlantShop_MatLamSG_Emissive.1001
+    second: {fileID: 2800000, guid: c2a557e086066aa40872aed174fa6f20, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: PlantShop_MatLamSG_Height.1001
+    second: {fileID: 2800000, guid: c6a371b53e56e1a43891256d9d5db8ae, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: PlantShop_MatLamSG_Metalness.1001
+    second: {fileID: 2800000, guid: b4e824ba0131dea42b1fa74419a15576, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: PlantShop_MatLamSG_Normal.1001
+    second: {fileID: 2800000, guid: 25457c996d1b61d4c97be73256dc7e2b, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: PlantShop_MatLamSG_Roughness.1001
+    second: {fileID: 2800000, guid: 5190eb210b8f79140ba39f647e9fb3ca, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: PlantShop_PotBaseLamSG_Emissive.1001
+    second: {fileID: 2800000, guid: 80b49ef73d44d2e4ea85490df3e54eba, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: PlantShop_PotBaseLamSG_Height.1001
+    second: {fileID: 2800000, guid: de5ac618385e90e498a1927f50a10450, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: PlantShop_PotBaseLamSG_Metalness.1001
+    second: {fileID: 2800000, guid: aaa90d21e821c5e499cdb37be3f8c144, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: PlantShop_PotBaseLamSG_Normal.1001
+    second: {fileID: 2800000, guid: 05054bdfec7770f4bae2c357371872fa, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: PlantShop_PotBaseLamSG_Roughness.1001
+    second: {fileID: 2800000, guid: 688e4e7fcab4c6f489659bda4f784153, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: PlantShop_PotLamSG_Emissive.1001
+    second: {fileID: 2800000, guid: 3d3b1f08e0021c9479c9bd80e9c92441, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: PlantShop_PotLamSG_Height.1001
+    second: {fileID: 2800000, guid: 032e1168f0dabc54bb3c50fc8238b613, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: PlantShop_PotLamSG_Metalness.1001
+    second: {fileID: 2800000, guid: 01465ac1a3568f84fa85f6fda11745d7, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: PlantShop_PotLamSG_Normal.1001
+    second: {fileID: 2800000, guid: 0e3783496499cdc49ac742352292d46b, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: PlantShop_PotLamSG_Roughness.1001
+    second: {fileID: 2800000, guid: ec4f71405feaf334a8da059e5e4204c7, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: PlantShop_RecLamSG_Emissive.1001
+    second: {fileID: 2800000, guid: 61c40c1a233a7654d9b934e54f284659, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: PlantShop_RecLamSG_Height.1001
+    second: {fileID: 2800000, guid: d5932dd7af1c1f94bac4255662c2d7b4, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: PlantShop_RecLamSG_Metalness.1001
+    second: {fileID: 2800000, guid: 3577369700754a8499f8cccb57c8f3da, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: PlantShop_RecLamSG_Normal.1001
+    second: {fileID: 2800000, guid: a1bb2bda190daf44b865e8fb0de5958a, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: PlantShop_RecLamSG_Roughness.1001
+    second: {fileID: 2800000, guid: 3e848644923032b4c9be54c6457a0e75, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: PlantShop_RecPlayerLamSG_Emissive.1001
+    second: {fileID: 2800000, guid: 669fa516105b1444d9c9b2063e4ea4a4, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: PlantShop_RecPlayerLamSG_Height.1001
+    second: {fileID: 2800000, guid: 575bd8edecf706d419c4fab0461562f0, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: PlantShop_RecPlayerLamSG_Metalness.1001
+    second: {fileID: 2800000, guid: 16185c46d6211c543b3d62deaa0f0438, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: PlantShop_RecPlayerLamSG_Normal.1001
+    second: {fileID: 2800000, guid: 6036425ecc9782340bea92dc7db79a79, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: PlantShop_RecPlayerLamSG_Roughness.1001
+    second: {fileID: 2800000, guid: 96db20a310c86c74286bd67d18b49951, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: PlantShop_RecRakLamSG_Emissive.1001
+    second: {fileID: 2800000, guid: 9265664d1bbae444a9615048ab0af166, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: PlantShop_RecRakLamSG_Height.1001
+    second: {fileID: 2800000, guid: 4b7e2adef4f533d43a1f71afd932fffe, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: PlantShop_RecRakLamSG_Metalness.1001
+    second: {fileID: 2800000, guid: 461372526950ec94c9ffe4d099d9e9e8, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: PlantShop_RecRakLamSG_Normal.1001
+    second: {fileID: 2800000, guid: 1bcb43da35253e1478112fc736d8f490, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: PlantShop_RecRakLamSG_Roughness.1001
+    second: {fileID: 2800000, guid: eec9b01c0d8842b4c9b92dffdfba34b5, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: PlantShop_ShopBaseLamSG_Emissive.1001
+    second: {fileID: 2800000, guid: 02696c4ccaa4edf48a55a645af45ac3d, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: PlantShop_ShopBaseLamSG_Height.1001
+    second: {fileID: 2800000, guid: 2f2a00b970f6bab4dadb39b0e4868611, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: PlantShop_ShopBaseLamSG_Metalness.1001
+    second: {fileID: 2800000, guid: 50dc086e65d8924438120317322dca80, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: PlantShop_ShopBaseLamSG_Normal.1001
+    second: {fileID: 2800000, guid: bc1d7c29d48e90c40a17511edf9717d9, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: PlantShop_ShopBaseLamSG_Roughness.1001
+    second: {fileID: 2800000, guid: 5957649cad6627948beb38fa48a476b0, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: PlantShop_ShovelLamSG_Emissive.1001
+    second: {fileID: 2800000, guid: 7a63616386901014899702efc1997f32, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: PlantShop_ShovelLamSG_Height.1001
+    second: {fileID: 2800000, guid: b18b315b0b88f9b42a68d286d96e8945, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: PlantShop_ShovelLamSG_Metalness.1001
+    second: {fileID: 2800000, guid: 2c716d737a74a6547b1589fc1b284c21, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: PlantShop_ShovelLamSG_Normal.1001
+    second: {fileID: 2800000, guid: 7ce334c394dff9343a36ba9ccfa7f43b, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: PlantShop_ShovelLamSG_Roughness.1001
+    second: {fileID: 2800000, guid: bfb41648df9b00148988291583a6d4d5, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: PlantShop_SoilLamSG_Emissive.1001
+    second: {fileID: 2800000, guid: 2f08c1415a4ffea49982bb494d189e87, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: PlantShop_SoilLamSG_Height.1001
+    second: {fileID: 2800000, guid: fccb0514898881540abfeda05a3e6837, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: PlantShop_SoilLamSG_Metalness.1001
+    second: {fileID: 2800000, guid: b7baaab2cf03621419ca8779981e43fb, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: PlantShop_SoilLamSG_Normal.1001
+    second: {fileID: 2800000, guid: 1626ef3dbbb4f3543a912295f0fa8bc9, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: PlantShop_SoilLamSG_Roughness.1001
+    second: {fileID: 2800000, guid: 4463be458f77cea4788dde05a8ceb6a0, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: PlantShop_StackedTableLamSG_Emissive.1001
+    second: {fileID: 2800000, guid: 4c995ee8344326e41a3569ff6f0b1d2a, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: PlantShop_StackedTableLamSG_Height.1001
+    second: {fileID: 2800000, guid: 34770fe497308dd43af5a1c13f18bb37, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: PlantShop_StackedTableLamSG_Metalness.1001
+    second: {fileID: 2800000, guid: fc8376e95350cd641986a32872389eec, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: PlantShop_StackedTableLamSG_Normal.1001
+    second: {fileID: 2800000, guid: 721fd4679c363db4d87382222f9db2f4, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: PlantShop_StackedTableLamSG_Roughness.1001
+    second: {fileID: 2800000, guid: 15a6f84fbd8ef434fabac9891dd7c09c, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: PlantShop_VaseLamSG_Emissive.1001
+    second: {fileID: 2800000, guid: 1835c1534db3af540bb209024e0ea317, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: PlantShop_VaseLamSG_Height.1001
+    second: {fileID: 2800000, guid: acade57f7c2f3f943a69695a8926ca22, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: PlantShop_VaseLamSG_Metalness.1001
+    second: {fileID: 2800000, guid: 645010aea34a7134d94dab29ff334ec1, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: PlantShop_VaseLamSG_Normal.1001
+    second: {fileID: 2800000, guid: 0fa9ee0c34fe25048892b1ac4d8bf7ea, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: PlantShop_VaseLamSG_Roughness.1001
+    second: {fileID: 2800000, guid: 792220b08c30bc542b832ecab843bf64, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: PlantShop_WaterCanLamSG_Emissive.1001
+    second: {fileID: 2800000, guid: 3c9e3f63a118053408a77eb34b5e9ae0, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: PlantShop_WaterCanLamSG_Height.1001
+    second: {fileID: 2800000, guid: e61f58d424a758f4d85663b14c33314d, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: PlantShop_WaterCanLamSG_Metalness.1001
+    second: {fileID: 2800000, guid: 5eea061a16381344abedf2794fd1d409, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: PlantShop_WaterCanLamSG_Normal.1001
+    second: {fileID: 2800000, guid: 8cb148be5769b93499f64ded0c2c29bb, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: PlantShop_WaterCanLamSG_Roughness.1001
+    second: {fileID: 2800000, guid: 6a4a7f68b15a2ea489af1d275d19eef2, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: PlantShop_WindowDirtLamSG_Emissive.1001
+    second: {fileID: 2800000, guid: 44fcda955939b004fa18fb6a9d489c7d, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: PlantShop_WindowDirtLamSG_Height.1001
+    second: {fileID: 2800000, guid: 042cd42a8bb20724490ef4c326d42ad5, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: PlantShop_WindowDirtLamSG_Metalness.1001
+    second: {fileID: 2800000, guid: b90e5307f0dbd254f9d33cd265fa311b, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: PlantShop_WindowDirtLamSG_Normal.1001
+    second: {fileID: 2800000, guid: 001e6a200421e6044a7fbe3720efbaeb, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: PlantShop_WindowDirtLamSG_Roughness.1001
+    second: {fileID: 2800000, guid: 55303c96cbaa743499ad1245063cfe5b, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: PlantShop_WindowTableLamSG_Emissive.1001
+    second: {fileID: 2800000, guid: e4906fb952da59f4dbcdebe836f1a8d0, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: PlantShop_WindowTableLamSG_Height.1001
+    second: {fileID: 2800000, guid: 426c98766f98b6748a41de134a0c4712, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: PlantShop_WindowTableLamSG_Metalness.1001
+    second: {fileID: 2800000, guid: 1691c0ca5a4d3b842808048509ea7725, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: PlantShop_WindowTableLamSG_Normal.1001
+    second: {fileID: 2800000, guid: d7eb4f4caeada6d4c810770d060cdff0, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: PlantShop_WindowTableLamSG_Roughness.1001
+    second: {fileID: 2800000, guid: 1559f35c626bc0e41bfa02e911209d08, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: PlantShop_WorkingTableLamSG_Emissive.1001
+    second: {fileID: 2800000, guid: 64c7b0daa88e81f4181a57c64ead810f, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: PlantShop_WorkingTableLamSG_Height.1001
+    second: {fileID: 2800000, guid: af036d9020c4c5e4486b8361e392128e, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: PlantShop_WorkingTableLamSG_Metalness.1001
+    second: {fileID: 2800000, guid: be835119f3094bb479e4e70fef763481, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: PlantShop_WorkingTableLamSG_Normal.1001
+    second: {fileID: 2800000, guid: 8c148d3d67e04b54d91752b4b1145443, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: PlantShop_WorkingTableLamSG_Roughness.1001
+    second: {fileID: 2800000, guid: bd8ab2dbaa6825147a6319a83c600616, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: RecPlayerLamSG_Alpha.1001
+    second: {fileID: 2800000, guid: 71ceb8f48bd74f44cbf75644ff664780, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: ShopBaseLamSG_Alpha.1001
+    second: {fileID: 2800000, guid: ae9abcf752b20374782706caf1217d95, type: 3}
+  materials:
+    materialImportMode: 2
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    removeConstantScaleCurves: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importPhysicalCameras: 1
+    importVisibility: 0
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    nodeNameCollisionStrategy: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    optimizeBones: 1
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 1
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    strictVertexDataChecks: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 2
+  humanoidOversampling: 1
+  avatarSetup: 0
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 1
+  importBlendShapeDeformPercent: 1
+  remapMaterialsIfMaterialImportModeIsNone: 0
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
