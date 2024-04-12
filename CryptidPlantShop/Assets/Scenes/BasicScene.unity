@@ -307,21 +307,6 @@ MonoBehaviour:
   updateEventThree:
     m_PersistentCalls:
       m_Calls: []
-  exitMatchEvent:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 550667765}
-        m_TargetAssemblyTypeName: UnityEngine.AudioSource, UnityEngine
-        m_MethodName: Stop
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
   update: {fileID: 0}
 --- !u!65 &160453001
 BoxCollider:
@@ -2054,7 +2039,8 @@ GameObject:
   - component: {fileID: 717071904}
   - component: {fileID: 717071903}
   - component: {fileID: 717071902}
-  m_Layer: 5
+  - component: {fileID: 717071905}
+  m_Layer: 6
   m_Name: BabyPotInstancer
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2110,18 +2096,6 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 8941771277963084015}
-        m_TargetAssemblyTypeName: UnityEngine.Collider, UnityEngine
-        m_MethodName: set_isTrigger
-        m_Mode: 6
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
 --- !u!4 &717071904
 Transform:
   m_ObjectHideFlags: 0
@@ -2137,6 +2111,27 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &717071905
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 717071901}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 64
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 55
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!4 &730362286 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 9014170783705847996, guid: 895f6f3c2d334633b5800312285058d2, type: 3}
@@ -2502,7 +2497,6 @@ MonoBehaviour:
         m_CallState: 2
   valueType: 5
   compareObj: {fileID: 11400000, guid: d7ca515c88b72d848a16f00ff59e4d9e, type: 2}
-  maxcompareObj: {fileID: 11400000, guid: 26fb8a22a2258bb4285557f541da6eaa, type: 2}
 --- !u!4 &885169911 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 5258331117553129771, guid: eb9104ef66b7305468adb3697fdeed5e, type: 3}
@@ -2519,6 +2513,7 @@ GameObject:
   - component: {fileID: 906466707}
   - component: {fileID: 906466706}
   - component: {fileID: 906466705}
+  - component: {fileID: 906466708}
   m_Layer: 6
   m_Name: PotInstancer
   m_TagString: Untagged
@@ -2548,18 +2543,6 @@ MonoBehaviour:
         m_TargetAssemblyTypeName: InstancingBehaviour, Assembly-CSharp
         m_MethodName: InstantiateUsingPrefab
         m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 925445680873519183}
-        m_TargetAssemblyTypeName: UnityEngine.Collider, UnityEngine
-        m_MethodName: set_isTrigger
-        m_Mode: 6
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -2602,6 +2585,27 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &906466708
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 906466704}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 64
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 55
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1001 &939154323
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3375,21 +3379,6 @@ MonoBehaviour:
   updateEventThree:
     m_PersistentCalls:
       m_Calls: []
-  exitMatchEvent:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 550667767}
-        m_TargetAssemblyTypeName: UnityEngine.AudioSource, UnityEngine
-        m_MethodName: Stop
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
   update: {fileID: 0}
 --- !u!1 &1227860420
 GameObject:
@@ -4405,21 +4394,6 @@ MonoBehaviour:
   updateEventThree:
     m_PersistentCalls:
       m_Calls: []
-  exitMatchEvent:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 550667766}
-        m_TargetAssemblyTypeName: UnityEngine.AudioSource, UnityEngine
-        m_MethodName: Stop
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
   update: {fileID: 0}
 --- !u!1001 &1656366052
 PrefabInstance:
@@ -5425,14 +5399,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 1185693066395167239, guid: 73bd74304abcc6043a4058b85b14ce7d, type: 3}
-      propertyPath: m_ExcludeLayers.m_Bits
-      value: 55
-      objectReference: {fileID: 0}
-    - target: {fileID: 1185693066395167239, guid: 73bd74304abcc6043a4058b85b14ce7d, type: 3}
-      propertyPath: m_IncludeLayers.m_Bits
-      value: 64
-      objectReference: {fileID: 0}
     - target: {fileID: 8658357819926777938, guid: 73bd74304abcc6043a4058b85b14ce7d, type: 3}
       propertyPath: m_Name
       value: Pot
@@ -5442,11 +5408,6 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 73bd74304abcc6043a4058b85b14ce7d, type: 3}
---- !u!65 &925445680873519183 stripped
-BoxCollider:
-  m_CorrespondingSourceObject: {fileID: 1185693066395167239, guid: 73bd74304abcc6043a4058b85b14ce7d, type: 3}
-  m_PrefabInstance: {fileID: 925445680873519182}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &8941771277963084014
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5458,14 +5419,6 @@ PrefabInstance:
     - target: {fileID: 2502181374854996538, guid: f4f42cc8b7184d040a95e3a1a530680e, type: 3}
       propertyPath: m_Name
       value: BabyPot
-      objectReference: {fileID: 0}
-    - target: {fileID: 3995302143973200365, guid: f4f42cc8b7184d040a95e3a1a530680e, type: 3}
-      propertyPath: m_ExcludeLayers.m_Bits
-      value: 55
-      objectReference: {fileID: 0}
-    - target: {fileID: 3995302143973200365, guid: f4f42cc8b7184d040a95e3a1a530680e, type: 3}
-      propertyPath: m_IncludeLayers.m_Bits
-      value: 64
       objectReference: {fileID: 0}
     - target: {fileID: 5471738889160686756, guid: f4f42cc8b7184d040a95e3a1a530680e, type: 3}
       propertyPath: m_LocalPosition.x
@@ -5512,11 +5465,6 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f4f42cc8b7184d040a95e3a1a530680e, type: 3}
---- !u!65 &8941771277963084015 stripped
-BoxCollider:
-  m_CorrespondingSourceObject: {fileID: 3995302143973200365, guid: f4f42cc8b7184d040a95e3a1a530680e, type: 3}
-  m_PrefabInstance: {fileID: 8941771277963084014}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
