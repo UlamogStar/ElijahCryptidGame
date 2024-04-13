@@ -293,18 +293,6 @@ MonoBehaviour:
   noMatchDelayedEvent:
     m_PersistentCalls:
       m_Calls: []
-  updateEvent:
-    m_PersistentCalls:
-      m_Calls: []
-  updateEventOne:
-    m_PersistentCalls:
-      m_Calls: []
-  updateEventTwo:
-    m_PersistentCalls:
-      m_Calls: []
-  updateEventThree:
-    m_PersistentCalls:
-      m_Calls: []
   exitTriggerEvent:
     m_PersistentCalls:
       m_Calls:
@@ -649,7 +637,7 @@ GameObject:
   - component: {fileID: 249075670}
   - component: {fileID: 249075669}
   - component: {fileID: 249075673}
-  m_Layer: 4
+  m_Layer: 0
   m_Name: Water
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -666,7 +654,7 @@ CapsuleCollider:
   m_Material: {fileID: 0}
   m_IncludeLayers:
     serializedVersion: 2
-    m_Bits: 17
+    m_Bits: 0
   m_ExcludeLayers:
     serializedVersion: 2
     m_Bits: 0
@@ -756,7 +744,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ad07f894bfa990f409116d87ad7e8935, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  idObj: {fileID: 0}
+  idObj: {fileID: 11400000, guid: 2b540e6caf9cea042919b6a4983e1bd9, type: 2}
   startEvent:
     m_PersistentCalls:
       m_Calls: []
@@ -3386,18 +3374,6 @@ MonoBehaviour:
   noMatchDelayedEvent:
     m_PersistentCalls:
       m_Calls: []
-  updateEvent:
-    m_PersistentCalls:
-      m_Calls: []
-  updateEventOne:
-    m_PersistentCalls:
-      m_Calls: []
-  updateEventTwo:
-    m_PersistentCalls:
-      m_Calls: []
-  updateEventThree:
-    m_PersistentCalls:
-      m_Calls: []
   exitTriggerEvent:
     m_PersistentCalls:
       m_Calls:
@@ -4002,6 +3978,11 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1452339567}
   m_Mesh: {fileID: 10206, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1 &1482554198 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 33787770783895033, guid: 73bd74304abcc6043a4058b85b14ce7d, type: 3}
+  m_PrefabInstance: {fileID: 925445680873519182}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1527960667
 GameObject:
   m_ObjectHideFlags: 0
@@ -4430,18 +4411,6 @@ MonoBehaviour:
   noMatchDelayedEvent:
     m_PersistentCalls:
       m_Calls: []
-  updateEvent:
-    m_PersistentCalls:
-      m_Calls: []
-  updateEventOne:
-    m_PersistentCalls:
-      m_Calls: []
-  updateEventTwo:
-    m_PersistentCalls:
-      m_Calls: []
-  updateEventThree:
-    m_PersistentCalls:
-      m_Calls: []
   exitTriggerEvent:
     m_PersistentCalls:
       m_Calls:
@@ -4457,6 +4426,48 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+--- !u!1 &1626434971 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8658357819926777938, guid: 73bd74304abcc6043a4058b85b14ce7d, type: 3}
+  m_PrefabInstance: {fileID: 925445680873519182}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1626434979
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1626434971}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5fcfc4da788497543b6214b4943d46d3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  idObj: {fileID: 11400000, guid: aaace5d860553294cbcc2d8b74bdcc73, type: 2}
+  matchEvent:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1482554198}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
+  noMatchEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  noMatchDelayedEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  exitTriggerEvent:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!1001 &1656366052
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5468,7 +5479,10 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 8658357819926777938, guid: 73bd74304abcc6043a4058b85b14ce7d, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1626434979}
   m_SourcePrefab: {fileID: 100100000, guid: 73bd74304abcc6043a4058b85b14ce7d, type: 3}
 --- !u!1001 &8941771277963084014
 PrefabInstance:
