@@ -2072,7 +2072,6 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   spawnPoint: {fileID: 717071904}
-  targetPoint: {fileID: 0}
   prefabObj: {fileID: 5471738889160686756, guid: f4f42cc8b7184d040a95e3a1a530680e, type: 3}
 --- !u!114 &717071903
 MonoBehaviour:
@@ -2104,6 +2103,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+  isSpawned: 0
 --- !u!4 &717071904
 Transform:
   m_ObjectHideFlags: 0
@@ -2113,8 +2113,8 @@ Transform:
   m_GameObject: {fileID: 717071901}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0.9999386, z: -0, w: -0.0110796895}
-  m_LocalPosition: {x: -0.734, y: 0.895, z: -0.29}
-  m_LocalScale: {x: 0.3953392, y: 0.39533922, z: 0.3953392}
+  m_LocalPosition: {x: -0.734, y: 0.932, z: -0.29}
+  m_LocalScale: {x: 0.24578413, y: 0.24578415, z: 0.24578413}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -2560,6 +2560,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+  isSpawned: 0
 --- !u!114 &906466706
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2577,7 +2578,6 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   spawnPoint: {fileID: 906466707}
-  targetPoint: {fileID: 0}
   prefabObj: {fileID: 48450678323038513, guid: 73bd74304abcc6043a4058b85b14ce7d, type: 3}
 --- !u!4 &906466707
 Transform:
@@ -2588,8 +2588,8 @@ Transform:
   m_GameObject: {fileID: 906466704}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.765, y: 0.894, z: 0.221}
-  m_LocalScale: {x: 0.30173, y: 0.30173, z: 0.30173}
+  m_LocalPosition: {x: -0.765, y: 0.926, z: 0.221}
+  m_LocalScale: {x: 0.22867851, y: 0.22867851, z: 0.22867851}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -3978,11 +3978,6 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1452339567}
   m_Mesh: {fileID: 10206, guid: 0000000000000000e000000000000000, type: 0}
---- !u!1 &1482554198 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 33787770783895033, guid: 73bd74304abcc6043a4058b85b14ce7d, type: 3}
-  m_PrefabInstance: {fileID: 925445680873519182}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1527960667
 GameObject:
   m_ObjectHideFlags: 0
@@ -4426,48 +4421,6 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
---- !u!1 &1626434971 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 8658357819926777938, guid: 73bd74304abcc6043a4058b85b14ce7d, type: 3}
-  m_PrefabInstance: {fileID: 925445680873519182}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &1626434979
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1626434971}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5fcfc4da788497543b6214b4943d46d3, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  idObj: {fileID: 11400000, guid: aaace5d860553294cbcc2d8b74bdcc73, type: 2}
-  matchEvent:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1482554198}
-        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-        m_MethodName: SetActive
-        m_Mode: 6
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 1
-        m_CallState: 2
-  noMatchEvent:
-    m_PersistentCalls:
-      m_Calls: []
-  noMatchDelayedEvent:
-    m_PersistentCalls:
-      m_Calls: []
-  exitTriggerEvent:
-    m_PersistentCalls:
-      m_Calls: []
 --- !u!1001 &1656366052
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5479,10 +5432,7 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 8658357819926777938, guid: 73bd74304abcc6043a4058b85b14ce7d, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 1626434979}
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 73bd74304abcc6043a4058b85b14ce7d, type: 3}
 --- !u!1001 &8941771277963084014
 PrefabInstance:

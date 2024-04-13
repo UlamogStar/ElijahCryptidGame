@@ -3978,6 +3978,7 @@ GameObject:
   - component: {fileID: 8626670037739257555}
   - component: {fileID: 1348932420887380260}
   - component: {fileID: 8843534387575267465}
+  - component: {fileID: 1398249677529784653}
   m_Layer: 0
   m_Name: Pot
   m_TagString: Untagged
@@ -4259,6 +4260,43 @@ MonoBehaviour:
   m_StartingSingleGrabTransformers: []
   m_StartingMultipleGrabTransformers: []
   m_AddDefaultGrabTransformers: 1
+--- !u!114 &1398249677529784653
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8658357819926777938}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5fcfc4da788497543b6214b4943d46d3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  idObj: {fileID: 11400000, guid: aaace5d860553294cbcc2d8b74bdcc73, type: 2}
+  matchEvent:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 33787770783895033}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
+  noMatchEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  noMatchDelayedEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  exitTriggerEvent:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!1 &8997229523688894380
 GameObject:
   m_ObjectHideFlags: 0
