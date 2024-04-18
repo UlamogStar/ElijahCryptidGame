@@ -8,6 +8,9 @@ onBoardingDoNotAskAgain = true
 showPackageIndexes = false
 showStatusBar = false
 scopes = {
+	"last_search.310DEAF1" = "p: dir=\"Audio\" "
+	"OpenInspectorPreview.310DEAF1" = "0"
+	"currentGroup.310DEAF1" = "all"
 }
 providers = {
 	scene = {
@@ -59,6 +62,7 @@ providers = {
 objectSelectors = {
 }
 recentSearches = [
+	"p: dir=\"Audio\" "
 ]
 searchItemFavorites = [
 ]

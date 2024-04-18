@@ -285,7 +285,7 @@ MeshCollider:
   m_Material: {fileID: 0}
   m_IncludeLayers:
     serializedVersion: 2
-    m_Bits: 0
+    m_Bits: 4294967295
   m_ExcludeLayers:
     serializedVersion: 2
     m_Bits: 0
@@ -316,7 +316,7 @@ Rigidbody:
     m_Bits: 0
   m_ExcludeLayers:
     serializedVersion: 2
-    m_Bits: 0
+    m_Bits: 128
   m_ImplicitCom: 1
   m_ImplicitTensor: 1
   m_UseGravity: 1
@@ -470,7 +470,7 @@ MonoBehaviour:
   m_SnapToColliderVolume: 1
   m_ReinitializeDynamicAttachEverySingleGrab: 1
   m_AttachEaseInTime: 0.15
-  m_MovementType: 2
+  m_MovementType: 0
   m_VelocityDamping: 1
   m_VelocityScale: 1
   m_AngularVelocityDamping: 1
@@ -1157,12 +1157,10 @@ GameObject:
   - component: {fileID: 3038934093494599008}
   - component: {fileID: 3494214036461515940}
   - component: {fileID: 7290958912354479096}
-  - component: {fileID: 2463608089746312522}
   - component: {fileID: 7641632616956751152}
   - component: {fileID: 3985864841032168306}
-  - component: {fileID: 6747168137426237487}
-  - component: {fileID: 4508909360730554619}
-  m_Layer: 0
+  - component: {fileID: 2811682843442810433}
+  m_Layer: 7
   m_Name: PlantSlot
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1178,8 +1176,8 @@ Transform:
   m_GameObject: {fileID: 4831845663279528454}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0.013, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: -0.000000014901, y: 0.013, z: 0.000000029802}
+  m_LocalScale: {x: 0.021897802, y: 0.021897802, z: 0.021897802}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 3365126468838979425}
@@ -1194,11 +1192,11 @@ SphereCollider:
   m_Material: {fileID: 0}
   m_IncludeLayers:
     serializedVersion: 2
-    m_Bits: 0
+    m_Bits: 4294967295
   m_ExcludeLayers:
     serializedVersion: 2
     m_Bits: 0
-  m_LayerOverridePriority: 0
+  m_LayerOverridePriority: 10
   m_IsTrigger: 1
   m_ProvidesContacts: 0
   m_Enabled: 1
@@ -1237,7 +1235,7 @@ MonoBehaviour:
   m_SelectEntered:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 6747168137426237487}
+      - m_Target: {fileID: 7641632616956751152}
         m_TargetAssemblyTypeName: MatchBehavior, Assembly-CSharp
         m_MethodName: setTriggerTrue
         m_Mode: 1
@@ -1249,7 +1247,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 4508909360730554619}
+      - m_Target: {fileID: 3985864841032168306}
         m_TargetAssemblyTypeName: MatchBehavior, Assembly-CSharp
         m_MethodName: setTriggerTrue
         m_Mode: 1
@@ -1264,7 +1262,7 @@ MonoBehaviour:
   m_SelectExited:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 6747168137426237487}
+      - m_Target: {fileID: 7641632616956751152}
         m_TargetAssemblyTypeName: MatchBehavior, Assembly-CSharp
         m_MethodName: setTriggerFalse
         m_Mode: 1
@@ -1276,7 +1274,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 4508909360730554619}
+      - m_Target: {fileID: 3985864841032168306}
         m_TargetAssemblyTypeName: MatchBehavior, Assembly-CSharp
         m_MethodName: setTriggerFalse
         m_Mode: 1
@@ -1313,19 +1311,6 @@ MonoBehaviour:
   m_SocketScaleMode: 0
   m_FixedScale: {x: 1, y: 1, z: 1}
   m_TargetBoundsSize: {x: 1, y: 1, z: 1}
---- !u!114 &2463608089746312522
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4831845663279528454}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 22f4f38e73d9808469fed1b8fa5d2778, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  isTriggered: 0
 --- !u!114 &7641632616956751152
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1402,82 +1387,33 @@ MonoBehaviour:
           m_BoolArgument: 1
         m_CallState: 2
   isTriggered: 0
---- !u!114 &6747168137426237487
-MonoBehaviour:
+--- !u!54 &2811682843442810433
+Rigidbody:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4831845663279528454}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5fcfc4da788497543b6214b4943d46d3, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  idObj: {fileID: 11400000, guid: 0ec93775ad18486408050ac9967fe2c4, type: 2}
-  matchEvent:
-    m_PersistentCalls:
-      m_Calls: []
-  noMatchEvent:
-    m_PersistentCalls:
-      m_Calls: []
-  noMatchDelayedEvent:
-    m_PersistentCalls:
-      m_Calls: []
-  matchTriggerEvent:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 4391776785277331199}
-        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-        m_MethodName: SetActive
-        m_Mode: 6
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 1
-        m_CallState: 2
-  isTriggered: 0
---- !u!114 &4508909360730554619
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4831845663279528454}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5fcfc4da788497543b6214b4943d46d3, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  idObj: {fileID: 11400000, guid: 66d102ee7c8d3d14a8e78c9ad4d1e521, type: 2}
-  matchEvent:
-    m_PersistentCalls:
-      m_Calls: []
-  noMatchEvent:
-    m_PersistentCalls:
-      m_Calls: []
-  noMatchDelayedEvent:
-    m_PersistentCalls:
-      m_Calls: []
-  matchTriggerEvent:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 2907899224101897943}
-        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-        m_MethodName: SetActive
-        m_Mode: 6
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 1
-        m_CallState: 2
-  isTriggered: 0
+  serializedVersion: 4
+  m_Mass: 0.0000001
+  m_Drag: 0
+  m_AngularDrag: 0
+  m_CenterOfMass: {x: 0, y: 0, z: 0}
+  m_InertiaTensor: {x: 1, y: 1, z: 1}
+  m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 128
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ImplicitCom: 1
+  m_ImplicitTensor: 1
+  m_UseGravity: 0
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!1 &5090254391044478548
 GameObject:
   m_ObjectHideFlags: 0
@@ -1579,7 +1515,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &3365126468838979425
 Transform:
   m_ObjectHideFlags: 0
@@ -2609,6 +2545,10 @@ PrefabInstance:
       propertyPath: m_Renderer
       value: 
       objectReference: {fileID: 7997539700276585746}
+    - target: {fileID: 8634317094661461186, guid: eb9104ef66b7305468adb3697fdeed5e, type: 3}
+      propertyPath: m_IgnoreHoverPriorityEvents
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -3512,6 +3452,10 @@ PrefabInstance:
     - target: {fileID: 9033377655150574254, guid: 55a7fab0e1d122c4598e8fec5e61dac8, type: 3}
       propertyPath: m_Name
       value: YellowLeafGroup
+      objectReference: {fileID: 0}
+    - target: {fileID: 9133280232712982714, guid: 55a7fab0e1d122c4598e8fec5e61dac8, type: 3}
+      propertyPath: m_IgnoreHoverPriorityEvents
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
