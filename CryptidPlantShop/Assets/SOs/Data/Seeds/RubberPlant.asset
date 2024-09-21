@@ -9,7 +9,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ca37f0bd6df277a4d98bf0eff83fb6d3, type: 3}
-  m_Name: TestPlantWater
+  m_Script: {fileID: 11500000, guid: 38d73634088b340dda0b5ef91e912bc0, type: 3}
+  m_Name: RubberPlant
   m_EditorClassIdentifier: 
-  value: 7
+  water: 2
+  light: 3
+  dirtList: 030000000400000007000000
