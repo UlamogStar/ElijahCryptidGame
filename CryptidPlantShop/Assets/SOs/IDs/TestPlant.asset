@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 38d73634088b340dda0b5ef91e912bc0, type: 3}
+  m_Name: TestPlant
+  m_EditorClassIdentifier: 
+  water: {fileID: 11400000, guid: e2523158508364138875dbcb91b5e817, type: 2}
+  light: {fileID: 11400000, guid: dcb31cbc66ccc43299cd8b245698f434, type: 2}
+  temp: {fileID: 11400000, guid: a1a3fbe80dc15406f83332d0b61c6e0f, type: 2}
+  dirtList: 010000000200000003000000
