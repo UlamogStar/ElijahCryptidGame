@@ -1,0 +1,2014 @@
+fileFormatVersion: 2
+guid: 1f8f7182df68a3e48b62c0a4553ad8c8
+ModelImporter:
+  serializedVersion: 22200
+  internalIDToNameTable: []
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: BasketShader
+    second: {fileID: 2100000, guid: 49cdce24677ba9547851d6c8de6ebbe4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: BellShader
+    second: {fileID: 2100000, guid: 9ccc14d00ae056a449babbb0c9d6c8f9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: BottleShader
+    second: {fileID: 2100000, guid: 640522271afbe66438d95d688ce178c7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: BucketShader
+    second: {fileID: 2100000, guid: c5f3e7322391e3b4db95115928e7cac0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: BucketShader1
+    second: {fileID: 2100000, guid: 97dffc5c524cfc04eb8399e6acb2a220, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: CabinetShader
+    second: {fileID: 2100000, guid: 6196ae48eba111b42b20b56cf3053c7c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ComputerShader
+    second: {fileID: 2100000, guid: 8fb304cdc87986d469852ba042fe173e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: CounterTableShader
+    second: {fileID: 2100000, guid: 2380d117243c97f4bb9455575f327dd1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: CounterTableShader1
+    second: {fileID: 2100000, guid: 430fe14ed28c3ad43a74a86a2c39d037, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: CounterTableShader2
+    second: {fileID: 2100000, guid: ab58c481a2e7a8343a0c5e69e761f7f5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: CupShader
+    second: {fileID: 2100000, guid: 4bdbd848580b9c64e8d104254c281827, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: DecorTableShader
+    second: {fileID: 2100000, guid: b00ed34c02c45ab449b3c9aeb49d069a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: DecorTableShader1
+    second: {fileID: 2100000, guid: 55706cf81b1590b428ea9dc3b7f87031, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Default_Material
+    second: {fileID: 2100000, guid: be8ba51f6a764294685895ff5308a54d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: DirtShader
+    second: {fileID: 2100000, guid: 6678c5e6899f7394d93f87b2bfa2ae86, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: DoorShader
+    second: {fileID: 2100000, guid: ed7712236decae44c88f6a0655ca4179, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: FertShader
+    second: {fileID: 2100000, guid: 0eb8603b576d93d4d9515a8876ff1d16, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: FertShader1
+    second: {fileID: 2100000, guid: 69d3f62c1f52bd844a39df00303245dd, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: FertShader2
+    second: {fileID: 2100000, guid: db54463f27ade684fa32d2d9b046b754, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: FertShader3
+    second: {fileID: 2100000, guid: cddac6042c6f20b498f31fb64ea64654, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: FrontShopBaseShader
+    second: {fileID: 2100000, guid: 04c8115ff216c0340832d20d384c4952, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: FrontTableShader
+    second: {fileID: 2100000, guid: f3a8a224c080a3548a4133b1ac70958e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: GrowLightShader
+    second: {fileID: 2100000, guid: be93186b868080d48aa13d216c82b008, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: GrowLightShader1
+    second: {fileID: 2100000, guid: d16a0006cdb6bab40ac8b2183cdac261, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: GrowShelfShader
+    second: {fileID: 2100000, guid: 2c4a9e9da7adf8a429caf2f99cdc794e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: HookShader
+    second: {fileID: 2100000, guid: d61d0f61ee2d6e34194bae484810c409, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: KnobShader
+    second: {fileID: 2100000, guid: 39fe3d4875b83f048bb581eda389f451, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: LampBulbShader
+    second: {fileID: 2100000, guid: d23d4eb146b3a39438f0eca79ad0e9cb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: LampShader
+    second: {fileID: 2100000, guid: adc478bb879f41546a01d8b4ae684455, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: MainShopBaseShader
+    second: {fileID: 2100000, guid: d4e6662cd9ed1604ab8a72376c1629f6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: MatShader
+    second: {fileID: 2100000, guid: 55da6bca6c767be40babe2eb403be58d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: NetShader
+    second: {fileID: 2100000, guid: c13974236b9929b49a675321b5ca1475, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: PlaterShader
+    second: {fileID: 2100000, guid: 40060275f9015ba4b80f359618ba54db, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: PlayerLidShader
+    second: {fileID: 2100000, guid: 0dca1f37cf133b34d8f1d13524f2cfe4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: PlayerShader
+    second: {fileID: 2100000, guid: 3aea500016b4b1c489914f11e0b771c4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: PotBaseShader
+    second: {fileID: 2100000, guid: f853b1548b2c06644898694f0393184f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: PotBaseShader1
+    second: {fileID: 2100000, guid: 152463d99e8df3144bbf9c1c259d8e03, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: PotBaseShader2
+    second: {fileID: 2100000, guid: 65ef2ef71bf7fa541a8387ba3003defa, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: PotShader
+    second: {fileID: 2100000, guid: 1223fe2a1c7c33346b60b98c710280d4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: PotShader1
+    second: {fileID: 2100000, guid: 87960a25dcda22d45a791edb2731f8d6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: PotShader2
+    second: {fileID: 2100000, guid: 7b79c00cddf1aa540b9554f85553a5dc, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: PrinterShader
+    second: {fileID: 2100000, guid: cd43fb585ff84384690ae0623e01ca9f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: RackShader
+    second: {fileID: 2100000, guid: d3d29664f7172674f9680d8120c9fbe3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: RecordShader
+    second: {fileID: 2100000, guid: b497ee93e409b304ab9f4091ba96dc65, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: RecordShader1
+    second: {fileID: 2100000, guid: 946b8269210a3624882d02449c301c1a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: RecordShader2
+    second: {fileID: 2100000, guid: 511ff75760e0ead41856b78a1bd6254a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: RoofShader
+    second: {fileID: 2100000, guid: 2a523cbf29f2eb94590443cc75c739f0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: RugShader
+    second: {fileID: 2100000, guid: 81b244421b235bc428108fa6421b9c93, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: RugShader1
+    second: {fileID: 2100000, guid: 39e353158355984478d3ab64dbad6db5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: SeedShelfShader
+    second: {fileID: 2100000, guid: e8a410dd0c43536498043497bec70eab, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ShelfShader
+    second: {fileID: 2100000, guid: 7b029b353bc392444bffa03a5c96daf0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ShovelShader
+    second: {fileID: 2100000, guid: 26c705dfd7ca9f641a7d7aa0da230b0c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: SinkShader
+    second: {fileID: 2100000, guid: 4ad0e7e4cb7f34a4991c7f1188297757, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: SodaShader
+    second: {fileID: 2100000, guid: 2d7a45d6e5aaf0b46986c0d816524888, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: SodaShader1
+    second: {fileID: 2100000, guid: 8436a24d0082e91409bebdfc07553624, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: SodaShader2
+    second: {fileID: 2100000, guid: 3a6a88bf7ca6d6d4b8175d3b8a879246, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: SodaTopShader
+    second: {fileID: 2100000, guid: f8a10efb2f0de9e4ab449fe90b31c969, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: StoolShader
+    second: {fileID: 2100000, guid: ddee9a661a86980409e9d0c36e1a1bb1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: VaseShader
+    second: {fileID: 2100000, guid: a31561c27f416bf49837865e18cedf9e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: VaseShader1
+    second: {fileID: 2100000, guid: 0685dcb0cb5e5954697c3f97af3215d0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: WaterCanShader
+    second: {fileID: 2100000, guid: 5b7161c80e043c8428c79b7589b02292, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: WaterShader
+    second: {fileID: 2100000, guid: 9573fa298f0532d4f97871c31ae5f665, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: WindowShader
+    second: {fileID: 2100000, guid: cca9220174f13d947b982f450fb56b57, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: WorkingTableShader
+    second: {fileID: 2100000, guid: 9da42310633a1ea4abdf951ed5e0a518, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: WorkingTableShader1
+    second: {fileID: 2100000, guid: ad20fca274f35434ba14a6bbc6648d99, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lambert1
+    second: {fileID: 2100000, guid: 9df8ef2c76b79254d8b5a0ee3544c2fc, type: 2}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: PlantShopFix_BasketShaderSG_Emissive.1001
+    second: {fileID: 2800000, guid: 2ceafdef68e99584da9ef0fc55daadec, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: PlantShopFix_BasketShaderSG_Height.1001
+    second: {fileID: 2800000, guid: dc2f7b5844826764a91b8a047ac86cd0, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: PlantShopFix_BasketShaderSG_Metalness.1001
+    second: {fileID: 2800000, guid: 17a56d1290d821f4d87af75a6fb19e45, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: PlantShopFix_BasketShaderSG_Normal.1001
+    second: {fileID: 2800000, guid: 68658286b646fb64783a51682699b736, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: PlantShopFix_BasketShaderSG_Roughness.1001
+    second: {fileID: 2800000, guid: ba23157b8f772c346a83984a0996b8f4, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: PlantShopFix_BellShaderSG_Emissive.1001
+    second: {fileID: 2800000, guid: df75974fe9f4b794eae15de4c3113b1b, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: PlantShopFix_BellShaderSG_Height.1001
+    second: {fileID: 2800000, guid: 5004f0f5a87c719449039e6aa0548325, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: PlantShopFix_BellShaderSG_Metalness.1001
+    second: {fileID: 2800000, guid: e54510bbf66b2d74b867e8994498fde4, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: PlantShopFix_BellShaderSG_Normal.1001
+    second: {fileID: 2800000, guid: 66086da0675401c43a673a329c94251b, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: PlantShopFix_BellShaderSG_Roughness.1001
+    second: {fileID: 2800000, guid: d8f7b0d0c1989a647bb9ecf165aa18b8, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: PlantShopFix_BottleShaderSG_Emissive.1001
+    second: {fileID: 2800000, guid: 314f3fbc849a7d24d9a95f974e574cdb, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: PlantShopFix_BottleShaderSG_Height.1001
+    second: {fileID: 2800000, guid: 431c025634479c24396394ba5afd58dd, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: PlantShopFix_BottleShaderSG_Metalness.1001
+    second: {fileID: 2800000, guid: e260f4686aa55fe4e80336cc9d3d9f67, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: PlantShopFix_BottleShaderSG_Normal.1001
+    second: {fileID: 2800000, guid: a549b90c570ba984c9ff9fc8a8c5efb5, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: PlantShopFix_BottleShaderSG_Roughness.1001
+    second: {fileID: 2800000, guid: b47647f2a6e020a49ab8fc9910f621c9, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: PlantShopFix_BucketShader1SG_Emissive.1001
+    second: {fileID: 2800000, guid: 0b122314dfaa3dd4da8312feb6ff119a, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: PlantShopFix_BucketShader1SG_Height.1001
+    second: {fileID: 2800000, guid: 58e978b6b1366b6499b6103d566288a6, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: PlantShopFix_BucketShader1SG_Metalness.1001
+    second: {fileID: 2800000, guid: 13920173c7188a44782e4266a6698098, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: PlantShopFix_BucketShader1SG_Normal.1001
+    second: {fileID: 2800000, guid: 411e4fcc217890141b82c0cd3be87b43, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: PlantShopFix_BucketShader1SG_Roughness.1001
+    second: {fileID: 2800000, guid: 894367c309cdc1c4aa58c042bfaeedf5, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: PlantShopFix_BucketShaderSG_Emissive.1001
+    second: {fileID: 2800000, guid: 9d054dfd8ffa7a24a82aa5359d299051, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: PlantShopFix_BucketShaderSG_Height.1001
+    second: {fileID: 2800000, guid: fc7278ebd6e760f4cac3cb7f2ba71bed, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: PlantShopFix_BucketShaderSG_Metalness.1001
+    second: {fileID: 2800000, guid: 1db1211d25e28f840834d2a15a7cfd80, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: PlantShopFix_BucketShaderSG_Normal.1001
+    second: {fileID: 2800000, guid: a35f9ab751d2d964282d6625e4c5edc0, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: PlantShopFix_BucketShaderSG_Roughness.1001
+    second: {fileID: 2800000, guid: 068321d6ba2c62943a56362a5ab6f4f4, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: PlantShopFix_CabinetShaderSG_Emissive.1001
+    second: {fileID: 2800000, guid: 0610ebb0136e1bd4482987d4a7c2db7a, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: PlantShopFix_CabinetShaderSG_Height.1001
+    second: {fileID: 2800000, guid: 92e3a012bc3549141988fb6d4c9f16a5, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: PlantShopFix_CabinetShaderSG_Metalness.1001
+    second: {fileID: 2800000, guid: c941f49a2e70f64409bd32e74099f451, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: PlantShopFix_CabinetShaderSG_Normal.1001
+    second: {fileID: 2800000, guid: dfaf0fa827fcee44e9d205900278a8b3, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: PlantShopFix_CabinetShaderSG_Roughness.1001
+    second: {fileID: 2800000, guid: a2623ad59e7e28543a5ac30481505c01, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: PlantShopFix_ComputerShaderSG_Emissive.1001
+    second: {fileID: 2800000, guid: 69bc15c1b2be2b04283b7b47e91945ba, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: PlantShopFix_ComputerShaderSG_Height.1001
+    second: {fileID: 2800000, guid: af6d9892f2b2008408144696ee15db78, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: PlantShopFix_ComputerShaderSG_Metalness.1001
+    second: {fileID: 2800000, guid: 06ed5a628b811f24ea59795d332483ce, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: PlantShopFix_ComputerShaderSG_Normal.1001
+    second: {fileID: 2800000, guid: 46ba509d1288e074da274d41f222f34e, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: PlantShopFix_ComputerShaderSG_Roughness.1001
+    second: {fileID: 2800000, guid: 92aec97da09be624aa2b8fe1fa23b4e9, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: PlantShopFix_CounterTableShader1SG_Emissive.1001
+    second: {fileID: 2800000, guid: e66cf936e75626843896adbb5fdaded7, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: PlantShopFix_CounterTableShader1SG_Height.1001
+    second: {fileID: 2800000, guid: 940c4b2a146ece040a5547cf103b9cb6, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: PlantShopFix_CounterTableShader1SG_Metalness.1001
+    second: {fileID: 2800000, guid: 70f07455838911044be42f72d71ba609, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: PlantShopFix_CounterTableShader1SG_Normal.1001
+    second: {fileID: 2800000, guid: b757f98fc78f5b448a95fb4a482e70e7, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: PlantShopFix_CounterTableShader1SG_Roughness.1001
+    second: {fileID: 2800000, guid: 5da8810025a05d646b23caa909e1cd52, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: PlantShopFix_CounterTableShader2SG_Emissive.1001
+    second: {fileID: 2800000, guid: d033d82c3c5ee7041b27790a5c2b8b5f, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: PlantShopFix_CounterTableShader2SG_Height.1001
+    second: {fileID: 2800000, guid: 1b6d2aa176c1f7d41a884efa0d8c0a2c, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: PlantShopFix_CounterTableShader2SG_Metalness.1001
+    second: {fileID: 2800000, guid: e77c071f9e0d57e449e79ba037979477, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: PlantShopFix_CounterTableShader2SG_Normal.1001
+    second: {fileID: 2800000, guid: b4ac629dca12a5645ad85209b1aa4b42, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: PlantShopFix_CounterTableShader2SG_Roughness.1001
+    second: {fileID: 2800000, guid: 62f9461247f877646a0c5a2d8cd87c44, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: PlantShopFix_CounterTableShaderSG_Emissive.1001
+    second: {fileID: 2800000, guid: 563dc04876aa82342ac86d6dbc4efe77, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: PlantShopFix_CounterTableShaderSG_Height.1001
+    second: {fileID: 2800000, guid: dfe7951947337134c97d3a65234c9a6b, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: PlantShopFix_CounterTableShaderSG_Metalness.1001
+    second: {fileID: 2800000, guid: d5cf858273627004398bf6630f10b59d, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: PlantShopFix_CounterTableShaderSG_Normal.1001
+    second: {fileID: 2800000, guid: bbcd5e7670578b14d91cdf5cdbe98280, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: PlantShopFix_CounterTableShaderSG_Roughness.1001
+    second: {fileID: 2800000, guid: 472f357fe0c93434cbc49d180b262ccb, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: PlantShopFix_CupShaderSG_Emissive.1001
+    second: {fileID: 2800000, guid: af8b40bbc2dc8c446b3eb8bf907e21fe, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: PlantShopFix_CupShaderSG_Height.1001
+    second: {fileID: 2800000, guid: 611b493db2a7fc24d839aa3364ec329f, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: PlantShopFix_CupShaderSG_Metalness.1001
+    second: {fileID: 2800000, guid: 787178bbaf1480b45956d0f0e66c2fed, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: PlantShopFix_CupShaderSG_Normal.1001
+    second: {fileID: 2800000, guid: 581a50c27694acf4ea0290164bffc692, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: PlantShopFix_CupShaderSG_Roughness.1001
+    second: {fileID: 2800000, guid: eaf68449be8592140bb59fffd9eee0b5, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: PlantShopFix_DecorTableShader1SG_Emissive.1001
+    second: {fileID: 2800000, guid: 70b52a0b86ee37249953cff118f8956b, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: PlantShopFix_DecorTableShader1SG_Height.1001
+    second: {fileID: 2800000, guid: 5c4d05a8469a67140b037f73555cd20f, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: PlantShopFix_DecorTableShader1SG_Metalness.1001
+    second: {fileID: 2800000, guid: ab847a62f70f5d3439494bb80c38bb64, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: PlantShopFix_DecorTableShader1SG_Normal.1001
+    second: {fileID: 2800000, guid: ca930361b0e43a84d94f40e3f0f0acee, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: PlantShopFix_DecorTableShader1SG_Roughness.1001
+    second: {fileID: 2800000, guid: c27f44184966f5e4c93b2eb1d55774ff, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: PlantShopFix_DecorTableShaderSG_Emissive.1001
+    second: {fileID: 2800000, guid: d8178ecb726d54c4c9698401dd834e06, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: PlantShopFix_DecorTableShaderSG_Height.1001
+    second: {fileID: 2800000, guid: 23d76506f41b6d5478483e0b7d58f70a, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: PlantShopFix_DecorTableShaderSG_Metalness.1001
+    second: {fileID: 2800000, guid: 1fd6ae5e5e7a0cc4aa87b2c7764e0ff0, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: PlantShopFix_DecorTableShaderSG_Normal.1001
+    second: {fileID: 2800000, guid: 5328bf70f2212c640a9e712c79a4a932, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: PlantShopFix_DecorTableShaderSG_Roughness.1001
+    second: {fileID: 2800000, guid: 64f985660135fba4ca17aee06acad4e8, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: PlantShopFix_DirtShaderSG_Emissive.1001
+    second: {fileID: 2800000, guid: 7ae7fd803cd9f3b48bb3aa8035cf35ce, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: PlantShopFix_DirtShaderSG_Height.1001
+    second: {fileID: 2800000, guid: 200232ae5e7e5ab409088000c041e365, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: PlantShopFix_DirtShaderSG_Metalness.1001
+    second: {fileID: 2800000, guid: 30183d5453f39f04c84f609886ec67a3, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: PlantShopFix_DirtShaderSG_Normal.1001
+    second: {fileID: 2800000, guid: 549179437f629d24ba248eb7a6a3f7f4, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: PlantShopFix_DirtShaderSG_Roughness.1001
+    second: {fileID: 2800000, guid: d6a067d208b3bb149a155cb74604f548, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: PlantShopFix_DoorShaderSG_Emissive.1001
+    second: {fileID: 2800000, guid: fe9411659bfc61a4da670d151a95fcea, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: PlantShopFix_DoorShaderSG_Height.1001
+    second: {fileID: 2800000, guid: dcc064d6a3ebef24f966982f4b363bb1, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: PlantShopFix_DoorShaderSG_Metalness.1001
+    second: {fileID: 2800000, guid: 0b324d38b75f86a49bad265f29684149, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: PlantShopFix_DoorShaderSG_Normal.1001
+    second: {fileID: 2800000, guid: 2eb09ecaeb4c49e49922036905d084cd, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: PlantShopFix_DoorShaderSG_Roughness.1001
+    second: {fileID: 2800000, guid: d07a26691d24e80419c7335d36c1a4ce, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: PlantShopFix_FertShader2SG_Emissive.1001
+    second: {fileID: 2800000, guid: d0bc3ac09eaaca74ea6d4f05bffb9385, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: PlantShopFix_FertShader2SG_Height.1001
+    second: {fileID: 2800000, guid: 26a8dc783c26ed54f80ce1e63e0d5634, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: PlantShopFix_FertShader2SG_Metalness.1001
+    second: {fileID: 2800000, guid: 29aebebc49328a74591f11e2da71b2ef, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: PlantShopFix_FertShader2SG_Normal.1001
+    second: {fileID: 2800000, guid: cb9cfed976d328944bf5b15791a86e0a, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: PlantShopFix_FertShader2SG_Roughness.1001
+    second: {fileID: 2800000, guid: 11bee1da432958b4dbd70743438c95de, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: PlantShopFix_FertShader3SG_Emissive.1001
+    second: {fileID: 2800000, guid: 6913869ba3a20c34dbb4df2ddc4f23b8, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: PlantShopFix_FertShader3SG_Height.1001
+    second: {fileID: 2800000, guid: 61d02c72c50541f4bbd48f55111970d7, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: PlantShopFix_FertShader3SG_Metalness.1001
+    second: {fileID: 2800000, guid: 81605870f51c9304fb4f34c70f75767c, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: PlantShopFix_FertShader3SG_Normal.1001
+    second: {fileID: 2800000, guid: 410caef077345854ebdef2a1e4b19184, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: PlantShopFix_FertShader3SG_Roughness.1001
+    second: {fileID: 2800000, guid: c9daf6fc2071acf4582f3957fe0a6577, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: PlantShopFix_FertShaderSG_Emissive.1001
+    second: {fileID: 2800000, guid: 6670df483886fe04889258fb17bc32bd, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: PlantShopFix_FertShaderSG_Height.1001
+    second: {fileID: 2800000, guid: 4d5cc89119f519743b3bdaadc309408b, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: PlantShopFix_FertShaderSG_Metalness.1001
+    second: {fileID: 2800000, guid: afc8f4408dbb65c4ab6b314e79bbb82a, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: PlantShopFix_FertShaderSG_Normal.1001
+    second: {fileID: 2800000, guid: 9a9b4b8d6e673c14e89d76f1d0330ce2, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: PlantShopFix_FertShaderSG_Roughness.1001
+    second: {fileID: 2800000, guid: 67e4442198d618e439481681f22ae874, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: PlantShopFix_FrontShopBaseShaderSG_Emissive.1001
+    second: {fileID: 2800000, guid: c3092717798ec794ebb57b3822c30951, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: PlantShopFix_FrontShopBaseShaderSG_Height.1001
+    second: {fileID: 2800000, guid: 86342c627e2853f4d91a44197832a5b7, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: PlantShopFix_FrontShopBaseShaderSG_Metalness.1001
+    second: {fileID: 2800000, guid: cbad12529f573d443b3172840685dd22, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: PlantShopFix_FrontShopBaseShaderSG_Normal.1001
+    second: {fileID: 2800000, guid: 60de815fb36d23243a222aec05c5ae3f, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: PlantShopFix_FrontShopBaseShaderSG_Roughness.1001
+    second: {fileID: 2800000, guid: 0aa1c1f75438365448fad022278f5790, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: PlantShopFix_FrontTableShaderSG_Emissive.1001
+    second: {fileID: 2800000, guid: b39ffed26c95e3c40abc685cc3162b97, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: PlantShopFix_FrontTableShaderSG_Height.1001
+    second: {fileID: 2800000, guid: d051561ccea8d04469ed2fea7ba5be30, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: PlantShopFix_FrontTableShaderSG_Metalness.1001
+    second: {fileID: 2800000, guid: c0fbbd81386d0324abb3227de9f24f35, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: PlantShopFix_FrontTableShaderSG_Normal.1001
+    second: {fileID: 2800000, guid: e98d31b5657294b49b62dd77b796880d, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: PlantShopFix_FrontTableShaderSG_Roughness.1001
+    second: {fileID: 2800000, guid: 743cae66519dc024b90024ea236e88d8, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: PlantShopFix_GrowLightShader1SG_Emissive.1001
+    second: {fileID: 2800000, guid: bb6e71bb5f716634d877d4621e6a3e34, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: PlantShopFix_GrowLightShader1SG_Height.1001
+    second: {fileID: 2800000, guid: 9d5378c12cfb8274b974d0b9fe9f6460, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: PlantShopFix_GrowLightShader1SG_Metalness.1001
+    second: {fileID: 2800000, guid: 047150c3af7cc7d4fb0b0c1e3540f349, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: PlantShopFix_GrowLightShader1SG_Normal.1001
+    second: {fileID: 2800000, guid: 35b7e79de273d514fb1b254c9c88041e, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: PlantShopFix_GrowLightShader1SG_Roughness.1001
+    second: {fileID: 2800000, guid: 596195de13f2205409c06ede042d38da, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: PlantShopFix_GrowLightShaderSG_Emissive.1001
+    second: {fileID: 2800000, guid: 0ce64d4ff3a381542a39fcac6b4b4bd9, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: PlantShopFix_GrowLightShaderSG_Height.1001
+    second: {fileID: 2800000, guid: e1a4280bc8fbc8a4a868b0876e7eb9da, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: PlantShopFix_GrowLightShaderSG_Metalness.1001
+    second: {fileID: 2800000, guid: 7868cfa5051c0784f9363d22cd9acef4, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: PlantShopFix_GrowLightShaderSG_Normal.1001
+    second: {fileID: 2800000, guid: d47ada1ae9f236a4a85d3645edf20330, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: PlantShopFix_GrowLightShaderSG_Roughness.1001
+    second: {fileID: 2800000, guid: 9b0fbbd06c1fd0e489092c7a63835e4c, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: PlantShopFix_GrowShelfShaderSG_Emissive.1001
+    second: {fileID: 2800000, guid: 0bb3100771debf14480ae93462832a02, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: PlantShopFix_GrowShelfShaderSG_Height.1001
+    second: {fileID: 2800000, guid: aa7b2a417bcdd2742a04657ec69c5878, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: PlantShopFix_GrowShelfShaderSG_Metalness.1001
+    second: {fileID: 2800000, guid: b9123308c3df46b49903fe3bd54d50d2, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: PlantShopFix_GrowShelfShaderSG_Normal.1001
+    second: {fileID: 2800000, guid: 41459321b4543c142acef4c76501feda, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: PlantShopFix_GrowShelfShaderSG_Roughness.1001
+    second: {fileID: 2800000, guid: 1c7089863df3e0a4db60dab79afae0b8, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: PlantShopFix_HookShaderSG_Emissive.1001
+    second: {fileID: 2800000, guid: 77e018a373d9d1c4b849b1d31d188edd, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: PlantShopFix_HookShaderSG_Height.1001
+    second: {fileID: 2800000, guid: b16209f63d8cd3041a41e72c2c55cea2, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: PlantShopFix_HookShaderSG_Metalness.1001
+    second: {fileID: 2800000, guid: cc476a215f4a0ed4b8116302f2bb14af, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: PlantShopFix_HookShaderSG_Normal.1001
+    second: {fileID: 2800000, guid: edbc10f53118cd3498031f678827e40d, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: PlantShopFix_HookShaderSG_Roughness.1001
+    second: {fileID: 2800000, guid: 252fbd7873e604d4d881bd9b5dbe2e5f, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: PlantShopFix_KnobShaderSG_Emissive.1001
+    second: {fileID: 2800000, guid: c9786225d885dfb40af8583257091830, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: PlantShopFix_KnobShaderSG_Height.1001
+    second: {fileID: 2800000, guid: 02de8cfdcdc51fb4690bfc0c2bbf649c, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: PlantShopFix_KnobShaderSG_Metalness.1001
+    second: {fileID: 2800000, guid: 6ca54549b48b0534db557882ce9ba219, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: PlantShopFix_KnobShaderSG_Normal.1001
+    second: {fileID: 2800000, guid: dde82fffc8329cc4a8e1d686ded5b32b, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: PlantShopFix_KnobShaderSG_Roughness.1001
+    second: {fileID: 2800000, guid: 9db6a576064968244a55d1ce448a24d4, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: PlantShopFix_LampBulbShaderSG_Emissive.1001
+    second: {fileID: 2800000, guid: a5d86fd512fdc194aaf348f792a15bf1, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: PlantShopFix_LampBulbShaderSG_Height.1001
+    second: {fileID: 2800000, guid: dfbad3437b622cd4490da67934d3d389, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: PlantShopFix_LampBulbShaderSG_Metalness.1001
+    second: {fileID: 2800000, guid: f53b50aecf7f1464ca8511397efaba01, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: PlantShopFix_LampBulbShaderSG_Normal.1001
+    second: {fileID: 2800000, guid: 6654a6ea46026424abe1e7cbcbdd290e, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: PlantShopFix_LampBulbShaderSG_Roughness.1001
+    second: {fileID: 2800000, guid: 5a22659fa9d224047bcbdc84cfed53e5, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: PlantShopFix_LampShaderSG_Emissive.1001
+    second: {fileID: 2800000, guid: 956936a5c714e594c85ccbf183aa214f, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: PlantShopFix_LampShaderSG_Height.1001
+    second: {fileID: 2800000, guid: 6c4141e8321375b449d762e6800aabac, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: PlantShopFix_LampShaderSG_Metalness.1001
+    second: {fileID: 2800000, guid: fc56e431d685a934aad56da0bf281a61, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: PlantShopFix_LampShaderSG_Normal.1001
+    second: {fileID: 2800000, guid: 63d33badce9e9174b97391c19043698e, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: PlantShopFix_LampShaderSG_Roughness.1001
+    second: {fileID: 2800000, guid: 720dcf3a56462c34ea817556af44cf42, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: PlantShopFix_MatShaderSG_Emissive.1001
+    second: {fileID: 2800000, guid: 812356324ee047e4999fbd49053e79df, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: PlantShopFix_MatShaderSG_Height.1001
+    second: {fileID: 2800000, guid: f02f73eb36e219141866b7ddb1d15f25, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: PlantShopFix_MatShaderSG_Metalness.1001
+    second: {fileID: 2800000, guid: 113326f1fc3fc2243bb73ef6a5ab6980, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: PlantShopFix_MatShaderSG_Normal.1001
+    second: {fileID: 2800000, guid: 919d2cbaa21cd864c9740a886b0fcfa0, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: PlantShopFix_MatShaderSG_Roughness.1001
+    second: {fileID: 2800000, guid: d4a2cc80f67503f469f80c49a25cf413, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: PlantShopFix_NetShaderSG_Emissive.1001
+    second: {fileID: 2800000, guid: 3a0641b7ac4bd1548aaebfb92cf7d79e, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: PlantShopFix_NetShaderSG_Height.1001
+    second: {fileID: 2800000, guid: 89d31e3cb4821f44fa68a108e2aafc13, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: PlantShopFix_NetShaderSG_Metalness.1001
+    second: {fileID: 2800000, guid: b1610da7e31f57147aea9bf6e7ba9b12, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: PlantShopFix_NetShaderSG_Normal.1001
+    second: {fileID: 2800000, guid: f5305bfe01f4b9d4aaa01e5d40bfe801, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: PlantShopFix_NetShaderSG_Roughness.1001
+    second: {fileID: 2800000, guid: 8b42382a061e737409550cc5c79fb5e1, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: PlantShopFix_PlaterShaderSG_Emissive.1001
+    second: {fileID: 2800000, guid: 58c9105fc6700cf43a1a56d84a0a58a7, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: PlantShopFix_PlaterShaderSG_Height.1001
+    second: {fileID: 2800000, guid: 15da6e67ef45ecb4a9b9aa7eeb87da3f, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: PlantShopFix_PlaterShaderSG_Metalness.1001
+    second: {fileID: 2800000, guid: ddf0a265abb43b54088fb2c52036131a, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: PlantShopFix_PlaterShaderSG_Normal.1001
+    second: {fileID: 2800000, guid: 9f9498cc029eff74a84644a4c7fd60fb, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: PlantShopFix_PlaterShaderSG_Roughness.1001
+    second: {fileID: 2800000, guid: f7488bd2a66474c419a2da42bbe0a50c, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: PlantShopFix_PlayerLidShaderSG_Emissive.1001
+    second: {fileID: 2800000, guid: f32879259d0f3104995e397460be2633, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: PlantShopFix_PlayerLidShaderSG_Height.1001
+    second: {fileID: 2800000, guid: fc350d8af7eef4945b2abc6ffe93f9bc, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: PlantShopFix_PlayerLidShaderSG_Metalness.1001
+    second: {fileID: 2800000, guid: 8a2fe550c3d03f54980c1e5931d6efb4, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: PlantShopFix_PlayerLidShaderSG_Normal.1001
+    second: {fileID: 2800000, guid: 5708015ec0cc9f14db96fd0166787d6e, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: PlantShopFix_PlayerLidShaderSG_Roughness.1001
+    second: {fileID: 2800000, guid: d543d6fd9b1e92b4d8c5bfbfbe6b0b90, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: PlantShopFix_PlayerShaderSG_Emissive.1001
+    second: {fileID: 2800000, guid: 079b68008fc7ec64ea7b15d56d6c8995, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: PlantShopFix_PlayerShaderSG_Height.1001
+    second: {fileID: 2800000, guid: ab656f8236703bf489c775b4d5a2d151, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: PlantShopFix_PlayerShaderSG_Metalness.1001
+    second: {fileID: 2800000, guid: 4b5fce8627078fd4290763d43d5d4d45, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: PlantShopFix_PlayerShaderSG_Normal.1001
+    second: {fileID: 2800000, guid: 6acce5e52cac2d445a0dceed198962c5, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: PlantShopFix_PlayerShaderSG_Roughness.1001
+    second: {fileID: 2800000, guid: 67e8047ee80123f4a854b468ad6569f1, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: PlantShopFix_PotBaseShader1SG_Emissive.1001
+    second: {fileID: 2800000, guid: c13c34579d96e7547ac88009c49fa0ef, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: PlantShopFix_PotBaseShader1SG_Height.1001
+    second: {fileID: 2800000, guid: 30008932fd7a88f43b67e153d8685c1c, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: PlantShopFix_PotBaseShader1SG_Metalness.1001
+    second: {fileID: 2800000, guid: 9b063ce3ff284cd4aaac5c4469f9a2f2, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: PlantShopFix_PotBaseShader1SG_Normal.1001
+    second: {fileID: 2800000, guid: 566e6e6999c4e7248816a99b22831a2a, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: PlantShopFix_PotBaseShader1SG_Roughness.1001
+    second: {fileID: 2800000, guid: 43bc86815905f4347bfad0d50d1f142c, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: PlantShopFix_PotBaseShader2SG_Emissive.1001
+    second: {fileID: 2800000, guid: e84ca2a6263141b4bbabf0801b03eac7, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: PlantShopFix_PotBaseShader2SG_Height.1001
+    second: {fileID: 2800000, guid: 2aea06fac9610724782d8f25a802699e, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: PlantShopFix_PotBaseShader2SG_Metalness.1001
+    second: {fileID: 2800000, guid: e6cac66b9d7a6b149ba672d7bb82c706, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: PlantShopFix_PotBaseShader2SG_Normal.1001
+    second: {fileID: 2800000, guid: b06817d1c456e0f4aa47a1386327b3dc, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: PlantShopFix_PotBaseShader2SG_Roughness.1001
+    second: {fileID: 2800000, guid: 9af9415e2fc8c18479ba98bde5de91f7, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: PlantShopFix_PotBaseShaderSG_Emissive.1001
+    second: {fileID: 2800000, guid: 39056d21aa8213e4aa091842d50e1664, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: PlantShopFix_PotBaseShaderSG_Height.1001
+    second: {fileID: 2800000, guid: a291aaafd5917bf429da1552f3161d3f, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: PlantShopFix_PotBaseShaderSG_Metalness.1001
+    second: {fileID: 2800000, guid: 233f0401b5694094ab021767171120e0, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: PlantShopFix_PotBaseShaderSG_Normal.1001
+    second: {fileID: 2800000, guid: 9bdbc0f499ff6634f9c1eb8c2c166e8a, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: PlantShopFix_PotBaseShaderSG_Roughness.1001
+    second: {fileID: 2800000, guid: 30b606ddcce89e34a8ad7d07ba822bc1, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: PlantShopFix_PotShader1SG_Emissive.1001
+    second: {fileID: 2800000, guid: 2607064f69cfec44eb789057f567d49f, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: PlantShopFix_PotShader1SG_Height.1001
+    second: {fileID: 2800000, guid: 12a10a8661dc0504b8f7a2923ed426b0, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: PlantShopFix_PotShader1SG_Metalness.1001
+    second: {fileID: 2800000, guid: 472a5a6c03d28ad44b307ef019ad4e6b, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: PlantShopFix_PotShader1SG_Normal.1001
+    second: {fileID: 2800000, guid: ecb5544fd1c902c479c357d7b54fed6c, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: PlantShopFix_PotShader1SG_Roughness.1001
+    second: {fileID: 2800000, guid: 1427a2cc6f690a743a77496435677c3b, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: PlantShopFix_PotShader2SG_Emissive.1001
+    second: {fileID: 2800000, guid: 1b7d41ab5d938a04fb420d0abac41d42, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: PlantShopFix_PotShader2SG_Height.1001
+    second: {fileID: 2800000, guid: 6c203638df17195469244e73014c013f, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: PlantShopFix_PotShader2SG_Metalness.1001
+    second: {fileID: 2800000, guid: e0963a8502024ec4391dfac6ff73fb8e, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: PlantShopFix_PotShader2SG_Normal.1001
+    second: {fileID: 2800000, guid: a997fd1e59d3fab4ca88dcfa8f7d7b21, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: PlantShopFix_PotShader2SG_Roughness.1001
+    second: {fileID: 2800000, guid: ab3d027475f6c3c4aacaa41f5d5dbeae, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: PlantShopFix_PotShaderSG_Emissive.1001
+    second: {fileID: 2800000, guid: f158fa83d4fcee6499ca8eaa67253c62, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: PlantShopFix_PotShaderSG_Height.1001
+    second: {fileID: 2800000, guid: 833a636c6a6d929438b3dc1872e39f13, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: PlantShopFix_PotShaderSG_Metalness.1001
+    second: {fileID: 2800000, guid: a94b7a91ef9002c46a7b37c27393fce3, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: PlantShopFix_PotShaderSG_Normal.1001
+    second: {fileID: 2800000, guid: cc58f30e8d3004944a6956c60fd9b4a2, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: PlantShopFix_PotShaderSG_Roughness.1001
+    second: {fileID: 2800000, guid: ea98cf482a12eb84aa398f4edae7ac30, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: PlantShopFix_PrinterShaderSG_Emissive.1001
+    second: {fileID: 2800000, guid: eecdbd5227a74ab4886f7058e28f6401, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: PlantShopFix_PrinterShaderSG_Height.1001
+    second: {fileID: 2800000, guid: fb76422421ae59d4c9d8c2622e3be74b, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: PlantShopFix_PrinterShaderSG_Metalness.1001
+    second: {fileID: 2800000, guid: 95493c85f0021fb40b29f998b13f655f, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: PlantShopFix_PrinterShaderSG_Normal.1001
+    second: {fileID: 2800000, guid: 1684e4f6997fc3a4ebed83320f2aba58, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: PlantShopFix_PrinterShaderSG_Roughness.1001
+    second: {fileID: 2800000, guid: c42c92d3217d1c94697e6732e7fd914c, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: PlantShopFix_RackShaderSG_Emissive.1001
+    second: {fileID: 2800000, guid: 48084e10b99a22842940ac7ec45c37a2, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: PlantShopFix_RackShaderSG_Height.1001
+    second: {fileID: 2800000, guid: 702bfbd361f58d849918b6d6a510a5b6, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: PlantShopFix_RackShaderSG_Metalness.1001
+    second: {fileID: 2800000, guid: cb4ab8f3e7a90494c923d7bdefba0581, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: PlantShopFix_RackShaderSG_Normal.1001
+    second: {fileID: 2800000, guid: 6daa39db85fa12142a685ed4c77d0675, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: PlantShopFix_RackShaderSG_Roughness.1001
+    second: {fileID: 2800000, guid: 40605096bb365b84e89f0029b254df1d, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: PlantShopFix_RecordShader1SG_Emissive.1001
+    second: {fileID: 2800000, guid: ecdf9f33b8dd90b42b98c02bab7a632f, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: PlantShopFix_RecordShader1SG_Height.1001
+    second: {fileID: 2800000, guid: 36e7adecc7200254188fc15dd4b6f9f3, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: PlantShopFix_RecordShader1SG_Metalness.1001
+    second: {fileID: 2800000, guid: b834da9653d4acd4ab941fb75751c460, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: PlantShopFix_RecordShader1SG_Normal.1001
+    second: {fileID: 2800000, guid: 175a28ba03c66f348b53d4a342eb99cb, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: PlantShopFix_RecordShader1SG_Roughness.1001
+    second: {fileID: 2800000, guid: 4ccd8c59215a08e4ebf3be6148f0685d, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: PlantShopFix_RecordShader2SG_Emissive.1001
+    second: {fileID: 2800000, guid: 00fc38acebf126b428e3caa11f7fa7a4, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: PlantShopFix_RecordShader2SG_Height.1001
+    second: {fileID: 2800000, guid: 2c730e4fa72c0d148ab9b30433a61e3c, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: PlantShopFix_RecordShader2SG_Metalness.1001
+    second: {fileID: 2800000, guid: 4d114e4f8d51a704b800045ff63d7a29, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: PlantShopFix_RecordShader2SG_Normal.1001
+    second: {fileID: 2800000, guid: b662effd8541f9b44b7548eb3e5553e0, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: PlantShopFix_RecordShader2SG_Roughness.1001
+    second: {fileID: 2800000, guid: 7ddf2cef45bf5584ba7e0607eae345fc, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: PlantShopFix_RecordShaderSG_Emissive.1001
+    second: {fileID: 2800000, guid: a63e718df62768d4f85160c2c2941e41, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: PlantShopFix_RecordShaderSG_Height.1001
+    second: {fileID: 2800000, guid: 743937b13203f0f428b3653dc6baecdb, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: PlantShopFix_RecordShaderSG_Metalness.1001
+    second: {fileID: 2800000, guid: 104e052c316214640a16dc33400a5e5b, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: PlantShopFix_RecordShaderSG_Normal.1001
+    second: {fileID: 2800000, guid: 1273b5a5a2ea13848a6d6355c592832b, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: PlantShopFix_RecordShaderSG_Roughness.1001
+    second: {fileID: 2800000, guid: 8f3b698665e119a41a2f4960b64f429f, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: PlantShopFix_RoofShaderSG_Emissive.1001
+    second: {fileID: 2800000, guid: ba41d809f834f70498e73b15bace217e, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: PlantShopFix_RoofShaderSG_Height.1001
+    second: {fileID: 2800000, guid: 2ddfbb8a54110d445b25b3eb8e338b52, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: PlantShopFix_RoofShaderSG_Metalness.1001
+    second: {fileID: 2800000, guid: 371e8a9233d01654890d60e925004054, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: PlantShopFix_RoofShaderSG_Normal.1001
+    second: {fileID: 2800000, guid: 5558ed89e721ad04f8832bf17efb8ec3, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: PlantShopFix_RoofShaderSG_Roughness.1001
+    second: {fileID: 2800000, guid: 7bf2289d4fda430479728b4fca291b1b, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: PlantShopFix_RugShader1SG_Emissive.1001
+    second: {fileID: 2800000, guid: 624aa1c2e00c3314d9137f592b2da9cb, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: PlantShopFix_RugShader1SG_Height.1001
+    second: {fileID: 2800000, guid: e32d4d1802f9d174caca303b2fea8ee4, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: PlantShopFix_RugShader1SG_Metalness.1001
+    second: {fileID: 2800000, guid: 36b54e5a0af826549a5745cd2179c72a, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: PlantShopFix_RugShader1SG_Normal.1001
+    second: {fileID: 2800000, guid: 34330866ac7d9014eb0fee30be50ac50, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: PlantShopFix_RugShader1SG_Roughness.1001
+    second: {fileID: 2800000, guid: ff964b336dc30034a868b5fe8f119fad, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: PlantShopFix_RugShaderSG_Emissive.1001
+    second: {fileID: 2800000, guid: 458c3354dd2265b468848d0ffde5326b, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: PlantShopFix_RugShaderSG_Height.1001
+    second: {fileID: 2800000, guid: 9bc82f8222103964b9759d25e7bed40d, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: PlantShopFix_RugShaderSG_Metalness.1001
+    second: {fileID: 2800000, guid: e756d78faca1e3d4fa3b3eb429b924a0, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: PlantShopFix_RugShaderSG_Normal.1001
+    second: {fileID: 2800000, guid: 4a3caf32dd6fed445a05f655f681a4cf, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: PlantShopFix_RugShaderSG_Roughness.1001
+    second: {fileID: 2800000, guid: a641b918f61193b4fad34f69a1a8b353, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: PlantShopFix_SeedShelfShaderSG_Emissive.1001
+    second: {fileID: 2800000, guid: f13535e205394e5448d3b1997b99daae, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: PlantShopFix_SeedShelfShaderSG_Height.1001
+    second: {fileID: 2800000, guid: 9f25e931be8bdb94a84612f6198294fd, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: PlantShopFix_SeedShelfShaderSG_Metalness.1001
+    second: {fileID: 2800000, guid: 57747b3ab62d8fb41a1d3340db176aa9, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: PlantShopFix_SeedShelfShaderSG_Normal.1001
+    second: {fileID: 2800000, guid: 3160513102eb4064cb8a5890b92e53d6, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: PlantShopFix_SeedShelfShaderSG_Roughness.1001
+    second: {fileID: 2800000, guid: 35faf80a0e16fd04c9cbadcd012185fb, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: PlantShopFix_ShelfShaderSG_Emissive.1001
+    second: {fileID: 2800000, guid: 70a9ac6b2ae09b14faa891c51367f9d1, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: PlantShopFix_ShelfShaderSG_Height.1001
+    second: {fileID: 2800000, guid: 535b8d308e791b34b93afdea14a27d38, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: PlantShopFix_ShelfShaderSG_Metalness.1001
+    second: {fileID: 2800000, guid: 44eee405b04c8b2449879443f124de80, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: PlantShopFix_ShelfShaderSG_Normal.1001
+    second: {fileID: 2800000, guid: 3ab327de725a7be449ed56c45959e806, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: PlantShopFix_ShelfShaderSG_Roughness.1001
+    second: {fileID: 2800000, guid: b34586376db5e3548afadd5d44e9fd6b, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: PlantShopFix_ShovelShaderSG_Emissive.1001
+    second: {fileID: 2800000, guid: b39cb3938b85709489557243bd29e21e, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: PlantShopFix_ShovelShaderSG_Height.1001
+    second: {fileID: 2800000, guid: 0f26018c7ec071840bc043ed061be73e, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: PlantShopFix_ShovelShaderSG_Metalness.1001
+    second: {fileID: 2800000, guid: 355917ed71a307c4883cc4c58923d9d2, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: PlantShopFix_ShovelShaderSG_Normal.1001
+    second: {fileID: 2800000, guid: e4f45a7fbeb65c84fa551be1bd16c1e2, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: PlantShopFix_ShovelShaderSG_Roughness.1001
+    second: {fileID: 2800000, guid: 39b5d8de8f86e9e4e8e92649e566950b, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: PlantShopFix_SinkShaderSG_Emissive.1001
+    second: {fileID: 2800000, guid: 63f9b5b57924de446be001d6661fddd1, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: PlantShopFix_SinkShaderSG_Height.1001
+    second: {fileID: 2800000, guid: 8173c9fec71b17541940cceb668cb435, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: PlantShopFix_SinkShaderSG_Metalness.1001
+    second: {fileID: 2800000, guid: a57f2b6a28c402549a55242794a2ee87, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: PlantShopFix_SinkShaderSG_Normal.1001
+    second: {fileID: 2800000, guid: 0b986891d8008774895c3292d527ded8, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: PlantShopFix_SinkShaderSG_Roughness.1001
+    second: {fileID: 2800000, guid: 188ac179be16b3f40b2bc08221cf5165, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: PlantShopFix_SodaShader1SG_Emissive.1001
+    second: {fileID: 2800000, guid: a9970de832440a4479a282450c3ae585, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: PlantShopFix_SodaShader1SG_Height.1001
+    second: {fileID: 2800000, guid: d03b49b5fdc4bd94397384fac8d1819f, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: PlantShopFix_SodaShader1SG_Metalness.1001
+    second: {fileID: 2800000, guid: 16b32334ad8b4464e84e99c15dd437df, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: PlantShopFix_SodaShader1SG_Normal.1001
+    second: {fileID: 2800000, guid: a086943dac2b92547b98e774a0cba552, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: PlantShopFix_SodaShader1SG_Roughness.1001
+    second: {fileID: 2800000, guid: 2611ae6b1a3ed6542ac7bcb37bfefe8d, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: PlantShopFix_SodaShader2SG_Emissive.1001
+    second: {fileID: 2800000, guid: 7c9a793baeada924e83d069ec870fb24, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: PlantShopFix_SodaShader2SG_Height.1001
+    second: {fileID: 2800000, guid: 891396fb298522e4d9c05f0ce921d6cd, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: PlantShopFix_SodaShader2SG_Metalness.1001
+    second: {fileID: 2800000, guid: d7ff2507b9a37d74d8bc3f3b36004a64, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: PlantShopFix_SodaShader2SG_Normal.1001
+    second: {fileID: 2800000, guid: 5ec73922cbf9ae44f962269ebfecaeba, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: PlantShopFix_SodaShader2SG_Roughness.1001
+    second: {fileID: 2800000, guid: 64598efb75dc6bb4b9a911bb2d1d6392, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: PlantShopFix_SodaShaderSG_Emissive.1001
+    second: {fileID: 2800000, guid: 92b95ad912d714c4f80e4634f6fda764, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: PlantShopFix_SodaShaderSG_Height.1001
+    second: {fileID: 2800000, guid: b89f2abcf1d3f064cb21a7bc45a0863b, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: PlantShopFix_SodaShaderSG_Metalness.1001
+    second: {fileID: 2800000, guid: 4f6c59405e95b3d45a866180d93ff2ed, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: PlantShopFix_SodaShaderSG_Normal.1001
+    second: {fileID: 2800000, guid: 35d2edfedffa4034a81da9c21fc1cba6, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: PlantShopFix_SodaShaderSG_Roughness.1001
+    second: {fileID: 2800000, guid: f606ccdfcebd0b14d9efaf69787410b9, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: PlantShopFix_SodaTopShaderSG_Emissive.1001
+    second: {fileID: 2800000, guid: c2be088af8fa3aa4f9ea9bc54340af16, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: PlantShopFix_SodaTopShaderSG_Height.1001
+    second: {fileID: 2800000, guid: d77905d927f99ac478638e55fc6c5a18, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: PlantShopFix_SodaTopShaderSG_Metalness.1001
+    second: {fileID: 2800000, guid: e6953e9da361c3b4b8c453b122d3b9aa, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: PlantShopFix_SodaTopShaderSG_Normal.1001
+    second: {fileID: 2800000, guid: a14d3cbcb9a9d524e8a3e7fa11763335, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: PlantShopFix_SodaTopShaderSG_Roughness.1001
+    second: {fileID: 2800000, guid: 4d33b38cbbd32904fb808586f41d2487, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: PlantShopFix_StoolShaderSG_Emissive.1001
+    second: {fileID: 2800000, guid: a4a776a12d2d4af4d90b94237a526a26, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: PlantShopFix_StoolShaderSG_Height.1001
+    second: {fileID: 2800000, guid: adbfc903b48ef0c4da405447ebd7fcde, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: PlantShopFix_StoolShaderSG_Metalness.1001
+    second: {fileID: 2800000, guid: e72db05281191c549a144a1ec9da787d, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: PlantShopFix_StoolShaderSG_Normal.1001
+    second: {fileID: 2800000, guid: 34bdbc55ed84d44429346d302047c48f, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: PlantShopFix_StoolShaderSG_Roughness.1001
+    second: {fileID: 2800000, guid: 00b31b997dd02ed408805e368914912e, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: PlantShopFix_VaseShader1SG_Emissive.1001
+    second: {fileID: 2800000, guid: e43597e93c07d8f41ab2c0bfb311521c, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: PlantShopFix_VaseShader1SG_Height.1001
+    second: {fileID: 2800000, guid: c3c7174ed2512ed43935c1cde2f2af49, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: PlantShopFix_VaseShader1SG_Metalness.1001
+    second: {fileID: 2800000, guid: c3d017f333b019b4c8e71eb7e1d2eb96, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: PlantShopFix_VaseShader1SG_Normal.1001
+    second: {fileID: 2800000, guid: 39ab1d3bc829a24468da55f6b916b4de, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: PlantShopFix_VaseShader1SG_Roughness.1001
+    second: {fileID: 2800000, guid: 0da99e61660aaef49b38c1ced14b339d, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: PlantShopFix_VaseShaderSG_Emissive.1001
+    second: {fileID: 2800000, guid: 3b85aa29a9d6ee04683fa6e9cb7a6412, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: PlantShopFix_VaseShaderSG_Height.1001
+    second: {fileID: 2800000, guid: d81ba1d1278805e4bb438985a1e9091b, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: PlantShopFix_VaseShaderSG_Metalness.1001
+    second: {fileID: 2800000, guid: b5cf1178feedca14e94d70d27b138611, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: PlantShopFix_VaseShaderSG_Normal.1001
+    second: {fileID: 2800000, guid: 2f841808c78e4ae42bfefd0c243ec109, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: PlantShopFix_VaseShaderSG_Roughness.1001
+    second: {fileID: 2800000, guid: 6278988742e1a694182d55b45e72469d, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: PlantShopFix_WaterCanShaderSG_Emissive.1001
+    second: {fileID: 2800000, guid: 4873e5e198355724995524073c802691, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: PlantShopFix_WaterCanShaderSG_Height.1001
+    second: {fileID: 2800000, guid: e4a0c664f161dad458bcdd233eadc1e7, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: PlantShopFix_WaterCanShaderSG_Metalness.1001
+    second: {fileID: 2800000, guid: 233f87bd1d481384db2a0a6299752fb7, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: PlantShopFix_WaterCanShaderSG_Normal.1001
+    second: {fileID: 2800000, guid: 2ff2938b0be30c246a1a82ddf5b3fdac, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: PlantShopFix_WaterCanShaderSG_Roughness.1001
+    second: {fileID: 2800000, guid: a5e96960efae609489047c4c027ca1cb, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: PlantShopFix_WaterShaderSG_Emissive.1001
+    second: {fileID: 2800000, guid: c0d67f7d11d7a1345a3d4d89d95dfce5, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: PlantShopFix_WaterShaderSG_Height.1001
+    second: {fileID: 2800000, guid: 07da11844a28a714086c07310d7e2acf, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: PlantShopFix_WaterShaderSG_Metalness.1001
+    second: {fileID: 2800000, guid: d9945607c68ef0949a228de0e3e763a9, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: PlantShopFix_WaterShaderSG_Normal.1001
+    second: {fileID: 2800000, guid: d8714accc5b9a31468b9326b21c5d2dd, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: PlantShopFix_WaterShaderSG_Roughness.1001
+    second: {fileID: 2800000, guid: cf725fb117944a445802566dd332c0a5, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: PlantShopFix_WindowShaderSG_Emissive.1001
+    second: {fileID: 2800000, guid: 302186e82d379ce4a9c35ca6152b41bc, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: PlantShopFix_WindowShaderSG_Height.1001
+    second: {fileID: 2800000, guid: e515b9db9bef2b948bf67c757c1aa2d2, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: PlantShopFix_WindowShaderSG_Metalness.1001
+    second: {fileID: 2800000, guid: 443624a6303240747a6d73046c9b70d2, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: PlantShopFix_WindowShaderSG_Normal.1001
+    second: {fileID: 2800000, guid: 33c1d0655d12693499f0403f80a564cb, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: PlantShopFix_WindowShaderSG_Roughness.1001
+    second: {fileID: 2800000, guid: 17b64a6611b04aa438bfda48026f835f, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: PlantShopFix_WorkingTableShader1SG_Emissive.1001
+    second: {fileID: 2800000, guid: c3824511078cae94baab3918dfed6c53, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: PlantShopFix_WorkingTableShader1SG_Height.1001
+    second: {fileID: 2800000, guid: 0222f4e1386b42f4b9022990ac380894, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: PlantShopFix_WorkingTableShader1SG_Metalness.1001
+    second: {fileID: 2800000, guid: 181c7e884e5a01c46b2b222c36ad1be4, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: PlantShopFix_WorkingTableShader1SG_Normal.1001
+    second: {fileID: 2800000, guid: f65ef8c251fd40b40b3a42996d25218e, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: PlantShopFix_WorkingTableShader1SG_Roughness.1001
+    second: {fileID: 2800000, guid: c7886dc3c283a1d4a827d6c87dea7bb0, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: PlantShopFix_WorkingTableShaderSG_Emissive.1001
+    second: {fileID: 2800000, guid: b4ee5054e674cc84694cac96061fb95e, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: PlantShopFix_WorkingTableShaderSG_Height.1001
+    second: {fileID: 2800000, guid: 82e46e8c962900e4ab24a0567cc3e48c, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: PlantShopFix_WorkingTableShaderSG_Metalness.1001
+    second: {fileID: 2800000, guid: b62f20a6252b61e468b7a0633cd8bf03, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: PlantShopFix_WorkingTableShaderSG_Normal.1001
+    second: {fileID: 2800000, guid: 396156acbe8703c4180bddd6485294a5, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: PlantShopFix_WorkingTableShaderSG_Roughness.1001
+    second: {fileID: 2800000, guid: e4654589e8ef77b42950f68394aba5c6, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: PlantShopFix_standardSurface2SG_Emissive.1001
+    second: {fileID: 2800000, guid: 5181c56916309e4449a28592e5e5d2cc, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: PlantShopFix_standardSurface2SG_Height.1001
+    second: {fileID: 2800000, guid: c5ca887170ef86740b39c26ee96b562a, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: PlantShopFix_standardSurface2SG_Metalness.1001
+    second: {fileID: 2800000, guid: 52add6a6a6d20a048b0b59bc5cc2d7fc, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: PlantShopFix_standardSurface2SG_Normal.1001
+    second: {fileID: 2800000, guid: 87b03ee2181d2ea42a7ea111d11df16f, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: PlantShopFix_standardSurface2SG_Roughness.1001
+    second: {fileID: 2800000, guid: 826051c2b3664d846b606628e7bc966a, type: 3}
+  materials:
+    materialImportMode: 2
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    removeConstantScaleCurves: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importPhysicalCameras: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    nodeNameCollisionStrategy: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    optimizeBones: 1
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 1
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    strictVertexDataChecks: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 2
+  humanoidOversampling: 1
+  avatarSetup: 0
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 1
+  importBlendShapeDeformPercent: 1
+  remapMaterialsIfMaterialImportModeIsNone: 0
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

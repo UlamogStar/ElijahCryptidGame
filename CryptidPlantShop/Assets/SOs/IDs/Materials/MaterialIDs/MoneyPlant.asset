@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d882080607d074860a970d54112d01be, type: 3}
+  m_Name: MoneyPlant
+  m_EditorClassIdentifier: 
+  inUse: 1
+  newMaterialOrder: {fileID: 2100000, guid: ca4721fc5fa1d409b9a1d1ae7baff677, type: 2}
+  newMaterialTicket: {fileID: 2100000, guid: b097edf8afd4242249ee9bba7792edf6, type: 2}
