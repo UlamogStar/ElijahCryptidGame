@@ -119,7 +119,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ad07f894bfa990f409116d87ad7e8935, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  idObj: {fileID: 11400000, guid: 52894077b4b5f461cb45b3f7826e695f, type: 2}
+  idObj: {fileID: 11400000, guid: 3a9b03f9afa51f84fafa888441e8effe, type: 2}
   startEvent:
     m_PersistentCalls:
       m_Calls: []
@@ -238,7 +238,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 8511219750869323485}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c45c378cb198a48129eb57ca12c27756, type: 3}
+  m_Script: {fileID: 11500000, guid: 7852db89b472e4c589f886d3b4a5d2ad, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   IDObj: {fileID: 0}
@@ -247,7 +247,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 6181884446595040568}
         m_TargetAssemblyTypeName: MaterialIDBehaviour, Assembly-CSharp
-        m_MethodName: ChangeRendererMaterialTicket
+        m_MethodName: ChangeRendererMaterialOrder
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -257,4 +257,4 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-  materialIDDataListObj: {fileID: 11400000, guid: 89cf27b93d77a4fe6a91b598f7c4e674, type: 2}
+  materialIDDataListObj: {fileID: 11400000, guid: 30531f8b39a56425fb672a1101c39307, type: 2}
