@@ -13,8 +13,8 @@ MonoBehaviour:
   m_Name: ScreenDataList
   m_EditorClassIdentifier: 
   MaterialIDList:
-  - {fileID: 11400000, guid: 186a900a045da4c63bd665a35fa803d9, type: 2}
-  - {fileID: 11400000, guid: 12f04f4f0b197473685fa8738cb63b30, type: 2}
   - {fileID: 11400000, guid: 83efc100647bf4efea8a02da126a9ea3, type: 2}
-  currentMaterial: {fileID: 11400000, guid: 186a900a045da4c63bd665a35fa803d9, type: 2}
-  element: {fileID: 11400000, guid: aefeeb09b0d894a3e960337169bd6ca3, type: 2}
+  - {fileID: 11400000, guid: 12f04f4f0b197473685fa8738cb63b30, type: 2}
+  - {fileID: 11400000, guid: 186a900a045da4c63bd665a35fa803d9, type: 2}
+  currentMaterial: {fileID: 11400000, guid: 83efc100647bf4efea8a02da126a9ea3, type: 2}
+  element: {fileID: 11400000, guid: 8e67d7bf33789be45a8660606481e86a, type: 2}
